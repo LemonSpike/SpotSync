@@ -1,0 +1,537 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		DBB72CC31EE2FF1100B187F4 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = DBB72CC21EE2FF1100B187F4 /* AppDelegate.swift */; };
+		DBB72CC51EE2FF1100B187F4 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = DBB72CC41EE2FF1100B187F4 /* ViewController.swift */; };
+		DBB72CC81EE2FF1100B187F4 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = DBB72CC61EE2FF1100B187F4 /* Main.storyboard */; };
+		DBB72CCA1EE2FF1100B187F4 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = DBB72CC91EE2FF1100B187F4 /* Assets.xcassets */; };
+		DBB72CCD1EE2FF1100B187F4 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = DBB72CCB1EE2FF1100B187F4 /* LaunchScreen.storyboard */; };
+		DBB72CD81EE2FF1100B187F4 /* SpotSyncAppTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = DBB72CD71EE2FF1100B187F4 /* SpotSyncAppTests.swift */; };
+		DBB72CE31EE2FF1100B187F4 /* SpotSyncAppUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = DBB72CE21EE2FF1100B187F4 /* SpotSyncAppUITests.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		DBB72CD41EE2FF1100B187F4 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = DBB72CB71EE2FF1000B187F4 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = DBB72CBE1EE2FF1100B187F4;
+			remoteInfo = SpotSyncApp;
+		};
+		DBB72CDF1EE2FF1100B187F4 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = DBB72CB71EE2FF1000B187F4 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = DBB72CBE1EE2FF1100B187F4;
+			remoteInfo = SpotSyncApp;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		DBB72CBF1EE2FF1100B187F4 /* SpotSyncApp.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = SpotSyncApp.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		DBB72CC21EE2FF1100B187F4 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		DBB72CC41EE2FF1100B187F4 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		DBB72CC71EE2FF1100B187F4 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		DBB72CC91EE2FF1100B187F4 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		DBB72CCC1EE2FF1100B187F4 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		DBB72CCE1EE2FF1100B187F4 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		DBB72CD31EE2FF1100B187F4 /* SpotSyncAppTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = SpotSyncAppTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		DBB72CD71EE2FF1100B187F4 /* SpotSyncAppTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SpotSyncAppTests.swift; sourceTree = "<group>"; };
+		DBB72CD91EE2FF1100B187F4 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		DBB72CDE1EE2FF1100B187F4 /* SpotSyncAppUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = SpotSyncAppUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		DBB72CE21EE2FF1100B187F4 /* SpotSyncAppUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SpotSyncAppUITests.swift; sourceTree = "<group>"; };
+		DBB72CE41EE2FF1100B187F4 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		DBB72CBC1EE2FF1100B187F4 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		DBB72CD01EE2FF1100B187F4 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		DBB72CDB1EE2FF1100B187F4 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		DBB72CB61EE2FF1000B187F4 = {
+			isa = PBXGroup;
+			children = (
+				DBB72CC11EE2FF1100B187F4 /* SpotSyncApp */,
+				DBB72CD61EE2FF1100B187F4 /* SpotSyncAppTests */,
+				DBB72CE11EE2FF1100B187F4 /* SpotSyncAppUITests */,
+				DBB72CC01EE2FF1100B187F4 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		DBB72CC01EE2FF1100B187F4 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				DBB72CBF1EE2FF1100B187F4 /* SpotSyncApp.app */,
+				DBB72CD31EE2FF1100B187F4 /* SpotSyncAppTests.xctest */,
+				DBB72CDE1EE2FF1100B187F4 /* SpotSyncAppUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		DBB72CC11EE2FF1100B187F4 /* SpotSyncApp */ = {
+			isa = PBXGroup;
+			children = (
+				DBB72CC21EE2FF1100B187F4 /* AppDelegate.swift */,
+				DBB72CC41EE2FF1100B187F4 /* ViewController.swift */,
+				DBB72CC61EE2FF1100B187F4 /* Main.storyboard */,
+				DBB72CC91EE2FF1100B187F4 /* Assets.xcassets */,
+				DBB72CCB1EE2FF1100B187F4 /* LaunchScreen.storyboard */,
+				DBB72CCE1EE2FF1100B187F4 /* Info.plist */,
+			);
+			path = SpotSyncApp;
+			sourceTree = "<group>";
+		};
+		DBB72CD61EE2FF1100B187F4 /* SpotSyncAppTests */ = {
+			isa = PBXGroup;
+			children = (
+				DBB72CD71EE2FF1100B187F4 /* SpotSyncAppTests.swift */,
+				DBB72CD91EE2FF1100B187F4 /* Info.plist */,
+			);
+			path = SpotSyncAppTests;
+			sourceTree = "<group>";
+		};
+		DBB72CE11EE2FF1100B187F4 /* SpotSyncAppUITests */ = {
+			isa = PBXGroup;
+			children = (
+				DBB72CE21EE2FF1100B187F4 /* SpotSyncAppUITests.swift */,
+				DBB72CE41EE2FF1100B187F4 /* Info.plist */,
+			);
+			path = SpotSyncAppUITests;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		DBB72CBE1EE2FF1100B187F4 /* SpotSyncApp */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = DBB72CE71EE2FF1100B187F4 /* Build configuration list for PBXNativeTarget "SpotSyncApp" */;
+			buildPhases = (
+				DBB72CBB1EE2FF1100B187F4 /* Sources */,
+				DBB72CBC1EE2FF1100B187F4 /* Frameworks */,
+				DBB72CBD1EE2FF1100B187F4 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = SpotSyncApp;
+			productName = SpotSyncApp;
+			productReference = DBB72CBF1EE2FF1100B187F4 /* SpotSyncApp.app */;
+			productType = "com.apple.product-type.application";
+		};
+		DBB72CD21EE2FF1100B187F4 /* SpotSyncAppTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = DBB72CEA1EE2FF1100B187F4 /* Build configuration list for PBXNativeTarget "SpotSyncAppTests" */;
+			buildPhases = (
+				DBB72CCF1EE2FF1100B187F4 /* Sources */,
+				DBB72CD01EE2FF1100B187F4 /* Frameworks */,
+				DBB72CD11EE2FF1100B187F4 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				DBB72CD51EE2FF1100B187F4 /* PBXTargetDependency */,
+			);
+			name = SpotSyncAppTests;
+			productName = SpotSyncAppTests;
+			productReference = DBB72CD31EE2FF1100B187F4 /* SpotSyncAppTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		DBB72CDD1EE2FF1100B187F4 /* SpotSyncAppUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = DBB72CED1EE2FF1100B187F4 /* Build configuration list for PBXNativeTarget "SpotSyncAppUITests" */;
+			buildPhases = (
+				DBB72CDA1EE2FF1100B187F4 /* Sources */,
+				DBB72CDB1EE2FF1100B187F4 /* Frameworks */,
+				DBB72CDC1EE2FF1100B187F4 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				DBB72CE01EE2FF1100B187F4 /* PBXTargetDependency */,
+			);
+			name = SpotSyncAppUITests;
+			productName = SpotSyncAppUITests;
+			productReference = DBB72CDE1EE2FF1100B187F4 /* SpotSyncAppUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		DBB72CB71EE2FF1000B187F4 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 0830;
+				LastUpgradeCheck = 0830;
+				ORGANIZATIONNAME = "Pranav Kasetti";
+				TargetAttributes = {
+					DBB72CBE1EE2FF1100B187F4 = {
+						CreatedOnToolsVersion = 8.3.2;
+						DevelopmentTeam = C3BX32XR8J;
+						ProvisioningStyle = Automatic;
+					};
+					DBB72CD21EE2FF1100B187F4 = {
+						CreatedOnToolsVersion = 8.3.2;
+						DevelopmentTeam = C3BX32XR8J;
+						ProvisioningStyle = Automatic;
+						TestTargetID = DBB72CBE1EE2FF1100B187F4;
+					};
+					DBB72CDD1EE2FF1100B187F4 = {
+						CreatedOnToolsVersion = 8.3.2;
+						DevelopmentTeam = C3BX32XR8J;
+						ProvisioningStyle = Automatic;
+						TestTargetID = DBB72CBE1EE2FF1100B187F4;
+					};
+				};
+			};
+			buildConfigurationList = DBB72CBA1EE2FF1000B187F4 /* Build configuration list for PBXProject "SpotSyncApp" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = DBB72CB61EE2FF1000B187F4;
+			productRefGroup = DBB72CC01EE2FF1100B187F4 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				DBB72CBE1EE2FF1100B187F4 /* SpotSyncApp */,
+				DBB72CD21EE2FF1100B187F4 /* SpotSyncAppTests */,
+				DBB72CDD1EE2FF1100B187F4 /* SpotSyncAppUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		DBB72CBD1EE2FF1100B187F4 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				DBB72CCD1EE2FF1100B187F4 /* LaunchScreen.storyboard in Resources */,
+				DBB72CCA1EE2FF1100B187F4 /* Assets.xcassets in Resources */,
+				DBB72CC81EE2FF1100B187F4 /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		DBB72CD11EE2FF1100B187F4 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		DBB72CDC1EE2FF1100B187F4 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		DBB72CBB1EE2FF1100B187F4 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				DBB72CC51EE2FF1100B187F4 /* ViewController.swift in Sources */,
+				DBB72CC31EE2FF1100B187F4 /* AppDelegate.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		DBB72CCF1EE2FF1100B187F4 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				DBB72CD81EE2FF1100B187F4 /* SpotSyncAppTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		DBB72CDA1EE2FF1100B187F4 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				DBB72CE31EE2FF1100B187F4 /* SpotSyncAppUITests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		DBB72CD51EE2FF1100B187F4 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = DBB72CBE1EE2FF1100B187F4 /* SpotSyncApp */;
+			targetProxy = DBB72CD41EE2FF1100B187F4 /* PBXContainerItemProxy */;
+		};
+		DBB72CE01EE2FF1100B187F4 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = DBB72CBE1EE2FF1100B187F4 /* SpotSyncApp */;
+			targetProxy = DBB72CDF1EE2FF1100B187F4 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		DBB72CC61EE2FF1100B187F4 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				DBB72CC71EE2FF1100B187F4 /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		DBB72CCB1EE2FF1100B187F4 /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				DBB72CCC1EE2FF1100B187F4 /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		DBB72CE51EE2FF1100B187F4 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 10.3;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		DBB72CE61EE2FF1100B187F4 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 10.3;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				SWIFT_OPTIMIZATION_LEVEL = "-Owholemodule";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		DBB72CE81EE2FF1100B187F4 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				DEVELOPMENT_TEAM = C3BX32XR8J;
+				INFOPLIST_FILE = SpotSyncApp/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = pranav.kasetti.SpotSyncApp;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 3.0;
+			};
+			name = Debug;
+		};
+		DBB72CE91EE2FF1100B187F4 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				DEVELOPMENT_TEAM = C3BX32XR8J;
+				INFOPLIST_FILE = SpotSyncApp/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = pranav.kasetti.SpotSyncApp;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 3.0;
+			};
+			name = Release;
+		};
+		DBB72CEB1EE2FF1100B187F4 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				DEVELOPMENT_TEAM = C3BX32XR8J;
+				INFOPLIST_FILE = SpotSyncAppTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = pranav.kasetti.SpotSyncAppTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 3.0;
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/SpotSyncApp.app/SpotSyncApp";
+			};
+			name = Debug;
+		};
+		DBB72CEC1EE2FF1100B187F4 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				DEVELOPMENT_TEAM = C3BX32XR8J;
+				INFOPLIST_FILE = SpotSyncAppTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = pranav.kasetti.SpotSyncAppTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 3.0;
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/SpotSyncApp.app/SpotSyncApp";
+			};
+			name = Release;
+		};
+		DBB72CEE1EE2FF1100B187F4 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				DEVELOPMENT_TEAM = C3BX32XR8J;
+				INFOPLIST_FILE = SpotSyncAppUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = pranav.kasetti.SpotSyncAppUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 3.0;
+				TEST_TARGET_NAME = SpotSyncApp;
+			};
+			name = Debug;
+		};
+		DBB72CEF1EE2FF1100B187F4 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				DEVELOPMENT_TEAM = C3BX32XR8J;
+				INFOPLIST_FILE = SpotSyncAppUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = pranav.kasetti.SpotSyncAppUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 3.0;
+				TEST_TARGET_NAME = SpotSyncApp;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		DBB72CBA1EE2FF1000B187F4 /* Build configuration list for PBXProject "SpotSyncApp" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				DBB72CE51EE2FF1100B187F4 /* Debug */,
+				DBB72CE61EE2FF1100B187F4 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		DBB72CE71EE2FF1100B187F4 /* Build configuration list for PBXNativeTarget "SpotSyncApp" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				DBB72CE81EE2FF1100B187F4 /* Debug */,
+				DBB72CE91EE2FF1100B187F4 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+		DBB72CEA1EE2FF1100B187F4 /* Build configuration list for PBXNativeTarget "SpotSyncAppTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				DBB72CEB1EE2FF1100B187F4 /* Debug */,
+				DBB72CEC1EE2FF1100B187F4 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+		DBB72CED1EE2FF1100B187F4 /* Build configuration list for PBXNativeTarget "SpotSyncAppUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				DBB72CEE1EE2FF1100B187F4 /* Debug */,
+				DBB72CEF1EE2FF1100B187F4 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = DBB72CB71EE2FF1000B187F4 /* Project object */;
+}
