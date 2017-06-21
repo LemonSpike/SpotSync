@@ -7,13 +7,25 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		021E908C08BB8A09AD7AA55A /* Pods_SpotSyncApp.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 98A990B557150880A86E7104 /* Pods_SpotSyncApp.framework */; };
+		8B5358B569B738D8086F78A6 /* Pods_SpotSyncAppUITests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 17079F8948639B2CCFB9C306 /* Pods_SpotSyncAppUITests.framework */; };
 		DBB72CC31EE2FF1100B187F4 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = DBB72CC21EE2FF1100B187F4 /* AppDelegate.swift */; };
 		DBB72CC51EE2FF1100B187F4 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = DBB72CC41EE2FF1100B187F4 /* ViewController.swift */; };
-		DBB72CC81EE2FF1100B187F4 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = DBB72CC61EE2FF1100B187F4 /* Main.storyboard */; };
 		DBB72CCA1EE2FF1100B187F4 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = DBB72CC91EE2FF1100B187F4 /* Assets.xcassets */; };
 		DBB72CCD1EE2FF1100B187F4 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = DBB72CCB1EE2FF1100B187F4 /* LaunchScreen.storyboard */; };
 		DBB72CD81EE2FF1100B187F4 /* SpotSyncAppTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = DBB72CD71EE2FF1100B187F4 /* SpotSyncAppTests.swift */; };
 		DBB72CE31EE2FF1100B187F4 /* SpotSyncAppUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = DBB72CE21EE2FF1100B187F4 /* SpotSyncAppUITests.swift */; };
+		DBB72CF31EE2FF6100B187F4 /* Model.swift in Sources */ = {isa = PBXBuildFile; fileRef = DBB72CF01EE2FF6100B187F4 /* Model.swift */; };
+		DBB72CF41EE2FF6100B187F4 /* LoginViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = DBB72CF11EE2FF6100B187F4 /* LoginViewController.swift */; };
+		DBB72CF51EE2FF6100B187F4 /* TableViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = DBB72CF21EE2FF6100B187F4 /* TableViewController.swift */; };
+		DBB72CF71EE2FFA300B187F4 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = DBB72CF61EE2FFA300B187F4 /* Main.storyboard */; };
+		DBB72CFC1EE3009F00B187F4 /* SpotifyAudioPlayback.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = DBB72CF91EE3009F00B187F4 /* SpotifyAudioPlayback.framework */; };
+		DBB72CFD1EE3009F00B187F4 /* SpotifyAuthentication.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = DBB72CFA1EE3009F00B187F4 /* SpotifyAuthentication.framework */; };
+		DBB72CFE1EE3009F00B187F4 /* SpotifyMetadata.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = DBB72CFB1EE3009F00B187F4 /* SpotifyMetadata.framework */; };
+		DBB72D041EE3030C00B187F4 /* Song.swift in Sources */ = {isa = PBXBuildFile; fileRef = DBB72D031EE3030B00B187F4 /* Song.swift */; };
+		DBB72D061EE4391200B187F4 /* AVFoundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = DBB72D051EE4391200B187F4 /* AVFoundation.framework */; };
+		DBB72D0A1EE5B59D00B187F4 /* AnnotatedPhotoCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = DBB72D091EE5B59D00B187F4 /* AnnotatedPhotoCell.swift */; };
+		E100E15E14CA80C49AEF3593 /* Pods_SpotSyncAppTests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = AA5793F1ED2B37561281CC57 /* Pods_SpotSyncAppTests.framework */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -34,10 +46,16 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		0B061C406C7858D0AEC084A2 /* Pods-SpotSyncAppUITests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-SpotSyncAppUITests.debug.xcconfig"; path = "Pods/Target Support Files/Pods-SpotSyncAppUITests/Pods-SpotSyncAppUITests.debug.xcconfig"; sourceTree = "<group>"; };
+		17079F8948639B2CCFB9C306 /* Pods_SpotSyncAppUITests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_SpotSyncAppUITests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		3F225BEA13180349ABA88D64 /* Pods-SpotSyncApp.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-SpotSyncApp.debug.xcconfig"; path = "Pods/Target Support Files/Pods-SpotSyncApp/Pods-SpotSyncApp.debug.xcconfig"; sourceTree = "<group>"; };
+		58D83F6CE05F58F2BF08E2BE /* Pods-SpotSyncAppTests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-SpotSyncAppTests.debug.xcconfig"; path = "Pods/Target Support Files/Pods-SpotSyncAppTests/Pods-SpotSyncAppTests.debug.xcconfig"; sourceTree = "<group>"; };
+		6DFB90DD2453FB823FB35C8F /* Pods-SpotSyncAppUITests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-SpotSyncAppUITests.release.xcconfig"; path = "Pods/Target Support Files/Pods-SpotSyncAppUITests/Pods-SpotSyncAppUITests.release.xcconfig"; sourceTree = "<group>"; };
+		98A990B557150880A86E7104 /* Pods_SpotSyncApp.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_SpotSyncApp.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		AA5793F1ED2B37561281CC57 /* Pods_SpotSyncAppTests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_SpotSyncAppTests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		DBB72CBF1EE2FF1100B187F4 /* SpotSyncApp.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = SpotSyncApp.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		DBB72CC21EE2FF1100B187F4 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		DBB72CC41EE2FF1100B187F4 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
-		DBB72CC71EE2FF1100B187F4 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		DBB72CC91EE2FF1100B187F4 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		DBB72CCC1EE2FF1100B187F4 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		DBB72CCE1EE2FF1100B187F4 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
@@ -47,6 +65,19 @@
 		DBB72CDE1EE2FF1100B187F4 /* SpotSyncAppUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = SpotSyncAppUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		DBB72CE21EE2FF1100B187F4 /* SpotSyncAppUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SpotSyncAppUITests.swift; sourceTree = "<group>"; };
 		DBB72CE41EE2FF1100B187F4 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		DBB72CF01EE2FF6100B187F4 /* Model.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Model.swift; sourceTree = "<group>"; };
+		DBB72CF11EE2FF6100B187F4 /* LoginViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = LoginViewController.swift; sourceTree = "<group>"; };
+		DBB72CF21EE2FF6100B187F4 /* TableViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = TableViewController.swift; sourceTree = "<group>"; };
+		DBB72CF61EE2FFA300B187F4 /* Main.storyboard */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.storyboard; path = Main.storyboard; sourceTree = "<group>"; };
+		DBB72CF91EE3009F00B187F4 /* SpotifyAudioPlayback.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; path = SpotifyAudioPlayback.framework; sourceTree = "<group>"; };
+		DBB72CFA1EE3009F00B187F4 /* SpotifyAuthentication.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; path = SpotifyAuthentication.framework; sourceTree = "<group>"; };
+		DBB72CFB1EE3009F00B187F4 /* SpotifyMetadata.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; path = SpotifyMetadata.framework; sourceTree = "<group>"; };
+		DBB72CFF1EE301D200B187F4 /* SpotSyncApp-Bridging-Header.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "SpotSyncApp-Bridging-Header.h"; sourceTree = "<group>"; };
+		DBB72D031EE3030B00B187F4 /* Song.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Song.swift; sourceTree = "<group>"; };
+		DBB72D051EE4391200B187F4 /* AVFoundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = AVFoundation.framework; path = System/Library/Frameworks/AVFoundation.framework; sourceTree = SDKROOT; };
+		DBB72D091EE5B59D00B187F4 /* AnnotatedPhotoCell.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = AnnotatedPhotoCell.swift; sourceTree = "<group>"; };
+		DC021F62836A72E2481EE284 /* Pods-SpotSyncApp.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-SpotSyncApp.release.xcconfig"; path = "Pods/Target Support Files/Pods-SpotSyncApp/Pods-SpotSyncApp.release.xcconfig"; sourceTree = "<group>"; };
+		F3E49FD96DFB4D363120A366 /* Pods-SpotSyncAppTests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-SpotSyncAppTests.release.xcconfig"; path = "Pods/Target Support Files/Pods-SpotSyncAppTests/Pods-SpotSyncAppTests.release.xcconfig"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -54,6 +85,11 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				DBB72D061EE4391200B187F4 /* AVFoundation.framework in Frameworks */,
+				DBB72CFC1EE3009F00B187F4 /* SpotifyAudioPlayback.framework in Frameworks */,
+				DBB72CFE1EE3009F00B187F4 /* SpotifyMetadata.framework in Frameworks */,
+				DBB72CFD1EE3009F00B187F4 /* SpotifyAuthentication.framework in Frameworks */,
+				021E908C08BB8A09AD7AA55A /* Pods_SpotSyncApp.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -61,6 +97,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				E100E15E14CA80C49AEF3593 /* Pods_SpotSyncAppTests.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -68,12 +105,26 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				8B5358B569B738D8086F78A6 /* Pods_SpotSyncAppUITests.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		3F3DA2F2983B9DEACF3B2C14 /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				3F225BEA13180349ABA88D64 /* Pods-SpotSyncApp.debug.xcconfig */,
+				DC021F62836A72E2481EE284 /* Pods-SpotSyncApp.release.xcconfig */,
+				58D83F6CE05F58F2BF08E2BE /* Pods-SpotSyncAppTests.debug.xcconfig */,
+				F3E49FD96DFB4D363120A366 /* Pods-SpotSyncAppTests.release.xcconfig */,
+				0B061C406C7858D0AEC084A2 /* Pods-SpotSyncAppUITests.debug.xcconfig */,
+				6DFB90DD2453FB823FB35C8F /* Pods-SpotSyncAppUITests.release.xcconfig */,
+			);
+			name = Pods;
+			sourceTree = "<group>";
+		};
 		DBB72CB61EE2FF1000B187F4 = {
 			isa = PBXGroup;
 			children = (
@@ -81,6 +132,8 @@
 				DBB72CD61EE2FF1100B187F4 /* SpotSyncAppTests */,
 				DBB72CE11EE2FF1100B187F4 /* SpotSyncAppUITests */,
 				DBB72CC01EE2FF1100B187F4 /* Products */,
+				3F3DA2F2983B9DEACF3B2C14 /* Pods */,
+				E8296DC102A0BBA82A5A151A /* Frameworks */,
 			);
 			sourceTree = "<group>";
 		};
@@ -98,11 +151,20 @@
 			isa = PBXGroup;
 			children = (
 				DBB72CC21EE2FF1100B187F4 /* AppDelegate.swift */,
+				DBB72D031EE3030B00B187F4 /* Song.swift */,
 				DBB72CC41EE2FF1100B187F4 /* ViewController.swift */,
-				DBB72CC61EE2FF1100B187F4 /* Main.storyboard */,
+				DBB72D091EE5B59D00B187F4 /* AnnotatedPhotoCell.swift */,
+				DBB72CF01EE2FF6100B187F4 /* Model.swift */,
+				DBB72CF11EE2FF6100B187F4 /* LoginViewController.swift */,
+				DBB72CF21EE2FF6100B187F4 /* TableViewController.swift */,
+				DBB72CF61EE2FFA300B187F4 /* Main.storyboard */,
 				DBB72CC91EE2FF1100B187F4 /* Assets.xcassets */,
 				DBB72CCB1EE2FF1100B187F4 /* LaunchScreen.storyboard */,
 				DBB72CCE1EE2FF1100B187F4 /* Info.plist */,
+				DBB72CF91EE3009F00B187F4 /* SpotifyAudioPlayback.framework */,
+				DBB72CFA1EE3009F00B187F4 /* SpotifyAuthentication.framework */,
+				DBB72CFB1EE3009F00B187F4 /* SpotifyMetadata.framework */,
+				DBB72CFF1EE301D200B187F4 /* SpotSyncApp-Bridging-Header.h */,
 			);
 			path = SpotSyncApp;
 			sourceTree = "<group>";
@@ -125,6 +187,17 @@
 			path = SpotSyncAppUITests;
 			sourceTree = "<group>";
 		};
+		E8296DC102A0BBA82A5A151A /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				DBB72D051EE4391200B187F4 /* AVFoundation.framework */,
+				98A990B557150880A86E7104 /* Pods_SpotSyncApp.framework */,
+				AA5793F1ED2B37561281CC57 /* Pods_SpotSyncAppTests.framework */,
+				17079F8948639B2CCFB9C306 /* Pods_SpotSyncAppUITests.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
 /* End PBXGroup section */
 
 /* Begin PBXNativeTarget section */
@@ -132,9 +205,12 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = DBB72CE71EE2FF1100B187F4 /* Build configuration list for PBXNativeTarget "SpotSyncApp" */;
 			buildPhases = (
+				C374CDAF1743D9DE08FBBEEF /* [CP] Check Pods Manifest.lock */,
 				DBB72CBB1EE2FF1100B187F4 /* Sources */,
 				DBB72CBC1EE2FF1100B187F4 /* Frameworks */,
 				DBB72CBD1EE2FF1100B187F4 /* Resources */,
+				AE0AB7C9B8B72FE37B3EC193 /* [CP] Embed Pods Frameworks */,
+				277FF0113F0052D6CF3D8B7A /* [CP] Copy Pods Resources */,
 			);
 			buildRules = (
 			);
@@ -149,9 +225,12 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = DBB72CEA1EE2FF1100B187F4 /* Build configuration list for PBXNativeTarget "SpotSyncAppTests" */;
 			buildPhases = (
+				EFFDB502C88B08476F945FA9 /* [CP] Check Pods Manifest.lock */,
 				DBB72CCF1EE2FF1100B187F4 /* Sources */,
 				DBB72CD01EE2FF1100B187F4 /* Frameworks */,
 				DBB72CD11EE2FF1100B187F4 /* Resources */,
+				D69BF76D4E8B7DD19D91C738 /* [CP] Embed Pods Frameworks */,
+				E3F927E147116323A6A7DC06 /* [CP] Copy Pods Resources */,
 			);
 			buildRules = (
 			);
@@ -167,9 +246,12 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = DBB72CED1EE2FF1100B187F4 /* Build configuration list for PBXNativeTarget "SpotSyncAppUITests" */;
 			buildPhases = (
+				58F3B362415F3BA280BFEDF8 /* [CP] Check Pods Manifest.lock */,
 				DBB72CDA1EE2FF1100B187F4 /* Sources */,
 				DBB72CDB1EE2FF1100B187F4 /* Frameworks */,
 				DBB72CDC1EE2FF1100B187F4 /* Resources */,
+				AA4DC0DF96B7D6449A8E94CA /* [CP] Embed Pods Frameworks */,
+				5D039D73F3D90513670337FE /* [CP] Copy Pods Resources */,
 			);
 			buildRules = (
 			);
@@ -194,6 +276,7 @@
 					DBB72CBE1EE2FF1100B187F4 = {
 						CreatedOnToolsVersion = 8.3.2;
 						DevelopmentTeam = C3BX32XR8J;
+						LastSwiftMigration = 0830;
 						ProvisioningStyle = Automatic;
 					};
 					DBB72CD21EE2FF1100B187F4 = {
@@ -235,9 +318,9 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				DBB72CF71EE2FFA300B187F4 /* Main.storyboard in Resources */,
 				DBB72CCD1EE2FF1100B187F4 /* LaunchScreen.storyboard in Resources */,
 				DBB72CCA1EE2FF1100B187F4 /* Assets.xcassets in Resources */,
-				DBB72CC81EE2FF1100B187F4 /* Main.storyboard in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -257,12 +340,155 @@
 		};
 /* End PBXResourcesBuildPhase section */
 
+/* Begin PBXShellScriptBuildPhase section */
+		277FF0113F0052D6CF3D8B7A /* [CP] Copy Pods Resources */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Copy Pods Resources";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-SpotSyncApp/Pods-SpotSyncApp-resources.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		58F3B362415F3BA280BFEDF8 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n";
+			showEnvVarsInLog = 0;
+		};
+		5D039D73F3D90513670337FE /* [CP] Copy Pods Resources */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Copy Pods Resources";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-SpotSyncAppUITests/Pods-SpotSyncAppUITests-resources.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		AA4DC0DF96B7D6449A8E94CA /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-SpotSyncAppUITests/Pods-SpotSyncAppUITests-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		AE0AB7C9B8B72FE37B3EC193 /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-SpotSyncApp/Pods-SpotSyncApp-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		C374CDAF1743D9DE08FBBEEF /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n";
+			showEnvVarsInLog = 0;
+		};
+		D69BF76D4E8B7DD19D91C738 /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-SpotSyncAppTests/Pods-SpotSyncAppTests-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		E3F927E147116323A6A7DC06 /* [CP] Copy Pods Resources */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Copy Pods Resources";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-SpotSyncAppTests/Pods-SpotSyncAppTests-resources.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		EFFDB502C88B08476F945FA9 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
+
 /* Begin PBXSourcesBuildPhase section */
 		DBB72CBB1EE2FF1100B187F4 /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				DBB72D041EE3030C00B187F4 /* Song.swift in Sources */,
+				DBB72D0A1EE5B59D00B187F4 /* AnnotatedPhotoCell.swift in Sources */,
+				DBB72CF41EE2FF6100B187F4 /* LoginViewController.swift in Sources */,
+				DBB72CF31EE2FF6100B187F4 /* Model.swift in Sources */,
 				DBB72CC51EE2FF1100B187F4 /* ViewController.swift in Sources */,
+				DBB72CF51EE2FF6100B187F4 /* TableViewController.swift in Sources */,
 				DBB72CC31EE2FF1100B187F4 /* AppDelegate.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -299,14 +525,6 @@
 /* End PBXTargetDependency section */
 
 /* Begin PBXVariantGroup section */
-		DBB72CC61EE2FF1100B187F4 /* Main.storyboard */ = {
-			isa = PBXVariantGroup;
-			children = (
-				DBB72CC71EE2FF1100B187F4 /* Base */,
-			);
-			name = Main.storyboard;
-			sourceTree = "<group>";
-		};
 		DBB72CCB1EE2FF1100B187F4 /* LaunchScreen.storyboard */ = {
 			isa = PBXVariantGroup;
 			children = (
@@ -413,32 +631,48 @@
 		};
 		DBB72CE81EE2FF1100B187F4 /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 3F225BEA13180349ABA88D64 /* Pods-SpotSyncApp.debug.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CLANG_ENABLE_MODULES = YES;
 				DEVELOPMENT_TEAM = C3BX32XR8J;
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(inherited)",
+					"$(PROJECT_DIR)/SpotSyncApp",
+				);
 				INFOPLIST_FILE = SpotSyncApp/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = pranav.kasetti.SpotSyncApp;
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_OBJC_BRIDGING_HEADER = "SpotSyncApp/SpotSyncApp-Bridging-Header.h";
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
 				SWIFT_VERSION = 3.0;
 			};
 			name = Debug;
 		};
 		DBB72CE91EE2FF1100B187F4 /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = DC021F62836A72E2481EE284 /* Pods-SpotSyncApp.release.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CLANG_ENABLE_MODULES = YES;
 				DEVELOPMENT_TEAM = C3BX32XR8J;
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(inherited)",
+					"$(PROJECT_DIR)/SpotSyncApp",
+				);
 				INFOPLIST_FILE = SpotSyncApp/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = pranav.kasetti.SpotSyncApp;
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_OBJC_BRIDGING_HEADER = "SpotSyncApp/SpotSyncApp-Bridging-Header.h";
 				SWIFT_VERSION = 3.0;
 			};
 			name = Release;
 		};
 		DBB72CEB1EE2FF1100B187F4 /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 58D83F6CE05F58F2BF08E2BE /* Pods-SpotSyncAppTests.debug.xcconfig */;
 			buildSettings = {
 				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
 				BUNDLE_LOADER = "$(TEST_HOST)";
@@ -454,6 +688,7 @@
 		};
 		DBB72CEC1EE2FF1100B187F4 /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = F3E49FD96DFB4D363120A366 /* Pods-SpotSyncAppTests.release.xcconfig */;
 			buildSettings = {
 				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
 				BUNDLE_LOADER = "$(TEST_HOST)";
@@ -469,6 +704,7 @@
 		};
 		DBB72CEE1EE2FF1100B187F4 /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 0B061C406C7858D0AEC084A2 /* Pods-SpotSyncAppUITests.debug.xcconfig */;
 			buildSettings = {
 				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
 				DEVELOPMENT_TEAM = C3BX32XR8J;
@@ -483,6 +719,7 @@
 		};
 		DBB72CEF1EE2FF1100B187F4 /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 6DFB90DD2453FB823FB35C8F /* Pods-SpotSyncAppUITests.release.xcconfig */;
 			buildSettings = {
 				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
 				DEVELOPMENT_TEAM = C3BX32XR8J;
@@ -514,6 +751,7 @@
 				DBB72CE91EE2FF1100B187F4 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		DBB72CEA1EE2FF1100B187F4 /* Build configuration list for PBXNativeTarget "SpotSyncAppTests" */ = {
 			isa = XCConfigurationList;
@@ -522,6 +760,7 @@
 				DBB72CEC1EE2FF1100B187F4 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		DBB72CED1EE2FF1100B187F4 /* Build configuration list for PBXNativeTarget "SpotSyncAppUITests" */ = {
 			isa = XCConfigurationList;
@@ -530,6 +769,7 @@
 				DBB72CEF1EE2FF1100B187F4 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};

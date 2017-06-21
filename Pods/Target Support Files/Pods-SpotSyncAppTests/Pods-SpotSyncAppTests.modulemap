@@ -1,0 +1,6 @@
+framework module Pods_SpotSyncAppTests {
+  umbrella header "Pods-SpotSyncAppTests-umbrella.h"
+
+  export *
+  module * { export * }
+}

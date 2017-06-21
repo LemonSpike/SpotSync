@@ -1,0 +1,3628 @@
+SUCCESS: {
+    tracks =     {
+        href = "https://api.spotify.com/v1/search?query=Taylor+Swift&type=track&market=GB&offset=0&limit=20";
+        items =         (
+                        {
+                album =                 {
+                    "album_type" = single;
+                    artists =                     (
+                                                {
+                            "external_urls" =                             {
+                                spotify = "https://open.spotify.com/artist/5ZsFI1h6hIdQRw2ti0hz81";
+                            };
+                            href = "https://api.spotify.com/v1/artists/5ZsFI1h6hIdQRw2ti0hz81";
+                            id = 5ZsFI1h6hIdQRw2ti0hz81;
+                            name = ZAYN;
+                            type = artist;
+                            uri = "spotify:artist:5ZsFI1h6hIdQRw2ti0hz81";
+                        },
+                                                {
+                            "external_urls" =                             {
+                                spotify = "https://open.spotify.com/artist/06HL4z0CvFAxyc27GXpf02";
+                            };
+                            href = "https://api.spotify.com/v1/artists/06HL4z0CvFAxyc27GXpf02";
+                            id = 06HL4z0CvFAxyc27GXpf02;
+                            name = "Taylor Swift";
+                            type = artist;
+                            uri = "spotify:artist:06HL4z0CvFAxyc27GXpf02";
+                        }
+                    );
+                    "available_markets" =                     (
+                        AD,
+                        AR,
+                        AT,
+                        AU,
+                        BE,
+                        BG,
+                        BO,
+                        BR,
+                        CH,
+                        CL,
+                        CO,
+                        CR,
+                        CY,
+                        CZ,
+                        DE,
+                        DK,
+                        DO,
+                        EC,
+                        EE,
+                        ES,
+                        FI,
+                        FR,
+                        GB,
+                        GR,
+                        GT,
+                        HK,
+                        HN,
+                        HU,
+                        ID,
+                        IE,
+                        IS,
+                        IT,
+                        JP,
+                        LI,
+                        LT,
+                        LU,
+                        LV,
+                        MC,
+                        MT,
+                        MY,
+                        NI,
+                        NL,
+                        NO,
+                        NZ,
+                        PA,
+                        PE,
+                        PH,
+                        PL,
+                        PT,
+                        PY,
+                        SE,
+                        SG,
+                        SK,
+                        SV,
+                        TR,
+                        TW,
+                        UY
+                    );
+                    "external_urls" =                     {
+                        spotify = "https://open.spotify.com/album/5MxXY7DbFMUiHFTPUabgJJ";
+                    };
+                    href = "https://api.spotify.com/v1/albums/5MxXY7DbFMUiHFTPUabgJJ";
+                    id = 5MxXY7DbFMUiHFTPUabgJJ;
+                    images =                     (
+                                                {
+                            height = 640;
+                            url = "https://i.scdn.co/image/7f9134aaf819b92e6576384eb7097ea3fa5e30bb";
+                            width = 640;
+                        },
+                                                {
+                            height = 300;
+                            url = "https://i.scdn.co/image/c41dad509e3c255ad494b1b327ae977d7e84a1ed";
+                            width = 300;
+                        },
+                                                {
+                            height = 64;
+                            url = "https://i.scdn.co/image/ed9f48f54b69d299b1226b656a9d2c5634bff84e";
+                            width = 64;
+                        }
+                    );
+                    name = "I Don\U2019t Wanna Live Forever (Fifty Shades Darker)";
+                    type = album;
+                    uri = "spotify:album:5MxXY7DbFMUiHFTPUabgJJ";
+                };
+                artists =                 (
+                                        {
+                        "external_urls" =                         {
+                            spotify = "https://open.spotify.com/artist/5ZsFI1h6hIdQRw2ti0hz81";
+                        };
+                        href = "https://api.spotify.com/v1/artists/5ZsFI1h6hIdQRw2ti0hz81";
+                        id = 5ZsFI1h6hIdQRw2ti0hz81;
+                        name = ZAYN;
+                        type = artist;
+                        uri = "spotify:artist:5ZsFI1h6hIdQRw2ti0hz81";
+                    },
+                                        {
+                        "external_urls" =                         {
+                            spotify = "https://open.spotify.com/artist/06HL4z0CvFAxyc27GXpf02";
+                        };
+                        href = "https://api.spotify.com/v1/artists/06HL4z0CvFAxyc27GXpf02";
+                        id = 06HL4z0CvFAxyc27GXpf02;
+                        name = "Taylor Swift";
+                        type = artist;
+                        uri = "spotify:artist:06HL4z0CvFAxyc27GXpf02";
+                    }
+                );
+                "available_markets" =                 (
+                    AD,
+                    AR,
+                    AT,
+                    AU,
+                    BE,
+                    BG,
+                    BO,
+                    BR,
+                    CH,
+                    CL,
+                    CO,
+                    CR,
+                    CY,
+                    CZ,
+                    DE,
+                    DK,
+                    DO,
+                    EC,
+                    EE,
+                    ES,
+                    FI,
+                    FR,
+                    GB,
+                    GR,
+                    GT,
+                    HK,
+                    HN,
+                    HU,
+                    ID,
+                    IE,
+                    IS,
+                    IT,
+                    JP,
+                    LI,
+                    LT,
+                    LU,
+                    LV,
+                    MC,
+                    MT,
+                    MY,
+                    NI,
+                    NL,
+                    NO,
+                    NZ,
+                    PA,
+                    PE,
+                    PH,
+                    PL,
+                    PT,
+                    PY,
+                    SE,
+                    SG,
+                    SK,
+                    SV,
+                    TR,
+                    TW,
+                    UY
+                );
+                "disc_number" = 1;
+                "duration_ms" = 245200;
+                explicit = 0;
+                "external_ids" =                 {
+                    isrc = USQ4E1602586;
+                };
+                "external_urls" =                 {
+                    spotify = "https://open.spotify.com/track/3NdDpSvN911VPGivFlV5d0";
+                };
+                href = "https://api.spotify.com/v1/tracks/3NdDpSvN911VPGivFlV5d0";
+                id = 3NdDpSvN911VPGivFlV5d0;
+                name = "I Don\U2019t Wanna Live Forever (Fifty Shades Darker) - From \"Fifty Shades Darker (Original Motion Picture Soundtrack)\"";
+                popularity = 88;
+                "preview_url" = "<null>";
+                "track_number" = 1;
+                type = track;
+                uri = "spotify:track:3NdDpSvN911VPGivFlV5d0";
+            },
+                        {
+                album =                 {
+                    "album_type" = single;
+                    artists =                     (
+                                                {
+                            "external_urls" =                             {
+                                spotify = "https://open.spotify.com/artist/3J28FLi8jjXtUGWf69cP7I";
+                            };
+                            href = "https://api.spotify.com/v1/artists/3J28FLi8jjXtUGWf69cP7I";
+                            id = 3J28FLi8jjXtUGWf69cP7I;
+                            name = "Gardiner Sisters";
+                            type = artist;
+                            uri = "spotify:artist:3J28FLi8jjXtUGWf69cP7I";
+                        }
+                    );
+                    "available_markets" =                     (
+                        AD,
+                        AR,
+                        AT,
+                        AU,
+                        BE,
+                        BG,
+                        BO,
+                        BR,
+                        CA,
+                        CH,
+                        CL,
+                        CO,
+                        CR,
+                        CY,
+                        CZ,
+                        DE,
+                        DK,
+                        DO,
+                        EC,
+                        EE,
+                        ES,
+                        FI,
+                        FR,
+                        GB,
+                        GR,
+                        GT,
+                        HK,
+                        HN,
+                        HU,
+                        ID,
+                        IE,
+                        IS,
+                        IT,
+                        JP,
+                        LI,
+                        LT,
+                        LU,
+                        LV,
+                        MC,
+                        MT,
+                        MX,
+                        MY,
+                        NI,
+                        NL,
+                        NO,
+                        NZ,
+                        PA,
+                        PE,
+                        PH,
+                        PL,
+                        PT,
+                        PY,
+                        SE,
+                        SG,
+                        SK,
+                        SV,
+                        TR,
+                        TW,
+                        US,
+                        UY
+                    );
+                    "external_urls" =                     {
+                        spotify = "https://open.spotify.com/album/6db7iWQUXALMDTVzRcOGpy";
+                    };
+                    href = "https://api.spotify.com/v1/albums/6db7iWQUXALMDTVzRcOGpy";
+                    id = 6db7iWQUXALMDTVzRcOGpy;
+                    images =                     (
+                                                {
+                            height = 640;
+                            url = "https://i.scdn.co/image/c4dfe24919a5b3703b583c33440826944fc81463";
+                            width = 640;
+                        },
+                                                {
+                            height = 300;
+                            url = "https://i.scdn.co/image/fe2ab3d5dc3e86cce0656d7e0e817754debb4458";
+                            width = 300;
+                        },
+                                                {
+                            height = 64;
+                            url = "https://i.scdn.co/image/5728fc5fcad54d33b209ebcf3b223754b6e78ba8";
+                            width = 64;
+                        }
+                    );
+                    name = "Taylor Swift 1989 Medley";
+                    type = album;
+                    uri = "spotify:album:6db7iWQUXALMDTVzRcOGpy";
+                };
+                artists =                 (
+                                        {
+                        "external_urls" =                         {
+                            spotify = "https://open.spotify.com/artist/3J28FLi8jjXtUGWf69cP7I";
+                        };
+                        href = "https://api.spotify.com/v1/artists/3J28FLi8jjXtUGWf69cP7I";
+                        id = 3J28FLi8jjXtUGWf69cP7I;
+                        name = "Gardiner Sisters";
+                        type = artist;
+                        uri = "spotify:artist:3J28FLi8jjXtUGWf69cP7I";
+                    }
+                );
+                "available_markets" =                 (
+                    AD,
+                    AR,
+                    AT,
+                    AU,
+                    BE,
+                    BG,
+                    BO,
+                    BR,
+                    CA,
+                    CH,
+                    CL,
+                    CO,
+                    CR,
+                    CY,
+                    CZ,
+                    DE,
+                    DK,
+                    DO,
+                    EC,
+                    EE,
+                    ES,
+                    FI,
+                    FR,
+                    GB,
+                    GR,
+                    GT,
+                    HK,
+                    HN,
+                    HU,
+                    ID,
+                    IE,
+                    IS,
+                    IT,
+                    JP,
+                    LI,
+                    LT,
+                    LU,
+                    LV,
+                    MC,
+                    MT,
+                    MX,
+                    MY,
+                    NI,
+                    NL,
+                    NO,
+                    NZ,
+                    PA,
+                    PE,
+                    PH,
+                    PL,
+                    PT,
+                    PY,
+                    SE,
+                    SG,
+                    SK,
+                    SV,
+                    TR,
+                    TW,
+                    US,
+                    UY
+                );
+                "disc_number" = 1;
+                "duration_ms" = 179880;
+                explicit = 0;
+                "external_ids" =                 {
+                    isrc = USE830967394;
+                };
+                "external_urls" =                 {
+                    spotify = "https://open.spotify.com/track/4Pt2aOG6KETMQp5mukYhD3";
+                };
+                href = "https://api.spotify.com/v1/tracks/4Pt2aOG6KETMQp5mukYhD3";
+                id = 4Pt2aOG6KETMQp5mukYhD3;
+                name = "Taylor Swift 1989 Medley";
+                popularity = 58;
+                "preview_url" = "https://p.scdn.co/mp3-preview/61eee325480d8c1bed02c08923417dff11995ead?cid=92e3c1c70c9d46db9bacbc117447a0e5";
+                "track_number" = 1;
+                type = track;
+                uri = "spotify:track:4Pt2aOG6KETMQp5mukYhD3";
+            },
+                        {
+                album =                 {
+                    "album_type" = album;
+                    artists =                     (
+                                                {
+                            "external_urls" =                             {
+                                spotify = "https://open.spotify.com/artist/0LyfQWJT6nXafLPZqxe9Of";
+                            };
+                            href = "https://api.spotify.com/v1/artists/0LyfQWJT6nXafLPZqxe9Of";
+                            id = 0LyfQWJT6nXafLPZqxe9Of;
+                            name = "Various Artists";
+                            type = artist;
+                            uri = "spotify:artist:0LyfQWJT6nXafLPZqxe9Of";
+                        }
+                    );
+                    "available_markets" =                     (
+                        BE,
+                        BG,
+                        CY,
+                        CZ,
+                        DK,
+                        EE,
+                        ES,
+                        FI,
+                        GB,
+                        GR,
+                        HK,
+                        HU,
+                        IE,
+                        IS,
+                        IT,
+                        LT,
+                        LU,
+                        LV,
+                        MT,
+                        MY,
+                        NL,
+                        NO,
+                        NZ,
+                        PH,
+                        PL,
+                        PT,
+                        SE,
+                        SG,
+                        SK,
+                        TR,
+                        TW
+                    );
+                    "external_urls" =                     {
+                        spotify = "https://open.spotify.com/album/6FeANe1ewmN6sY0VY0qfyI";
+                    };
+                    href = "https://api.spotify.com/v1/albums/6FeANe1ewmN6sY0VY0qfyI";
+                    id = 6FeANe1ewmN6sY0VY0qfyI;
+                    images =                     (
+                                                {
+                            height = 640;
+                            url = "https://i.scdn.co/image/0d37acfc1d4c18f9386bcaa26aa9059ffb5df873";
+                            width = 640;
+                        },
+                                                {
+                            height = 300;
+                            url = "https://i.scdn.co/image/c109a2997e828485c5a72003512cacb77bdad0a1";
+                            width = 300;
+                        },
+                                                {
+                            height = 64;
+                            url = "https://i.scdn.co/image/5fbf34c77c140e170ebf69f86ea94a5266b59c17";
+                            width = 64;
+                        }
+                    );
+                    name = "The Hunger Games: Songs From District 12 And Beyond";
+                    type = album;
+                    uri = "spotify:album:6FeANe1ewmN6sY0VY0qfyI";
+                };
+                artists =                 (
+                                        {
+                        "external_urls" =                         {
+                            spotify = "https://open.spotify.com/artist/06HL4z0CvFAxyc27GXpf02";
+                        };
+                        href = "https://api.spotify.com/v1/artists/06HL4z0CvFAxyc27GXpf02";
+                        id = 06HL4z0CvFAxyc27GXpf02;
+                        name = "Taylor Swift";
+                        type = artist;
+                        uri = "spotify:artist:06HL4z0CvFAxyc27GXpf02";
+                    },
+                                        {
+                        "external_urls" =                         {
+                            spotify = "https://open.spotify.com/artist/6J7rw7NELJUCThPbAfyLIE";
+                        };
+                        href = "https://api.spotify.com/v1/artists/6J7rw7NELJUCThPbAfyLIE";
+                        id = 6J7rw7NELJUCThPbAfyLIE;
+                        name = "The Civil Wars";
+                        type = artist;
+                        uri = "spotify:artist:6J7rw7NELJUCThPbAfyLIE";
+                    }
+                );
+                "available_markets" =                 (
+                    BE,
+                    BG,
+                    CY,
+                    CZ,
+                    DK,
+                    EE,
+                    ES,
+                    FI,
+                    GB,
+                    GR,
+                    HK,
+                    HU,
+                    IE,
+                    IS,
+                    IT,
+                    LT,
+                    LU,
+                    LV,
+                    MT,
+                    MY,
+                    NL,
+                    NO,
+                    NZ,
+                    PH,
+                    PL,
+                    PT,
+                    SE,
+                    SG,
+                    SK,
+                    TR,
+                    TW
+                );
+                "disc_number" = 1;
+                "duration_ms" = 240066;
+                explicit = 0;
+                "external_ids" =                 {
+                    isrc = USUM71120255;
+                };
+                "external_urls" =                 {
+                    spotify = "https://open.spotify.com/track/4yTqjWF2EoFJM5BbSCe4YW";
+                };
+                href = "https://api.spotify.com/v1/tracks/4yTqjWF2EoFJM5BbSCe4YW";
+                id = 4yTqjWF2EoFJM5BbSCe4YW;
+                name = "Safe & Sound - The Hunger Games/Soundtrack Version";
+                popularity = 60;
+                "preview_url" = "<null>";
+                "track_number" = 4;
+                type = track;
+                uri = "spotify:track:4yTqjWF2EoFJM5BbSCe4YW";
+            },
+                        {
+                album =                 {
+                    "album_type" = single;
+                    artists =                     (
+                                                {
+                            "external_urls" =                             {
+                                spotify = "https://open.spotify.com/artist/5c4woKF4FctrsVMBcUQPgr";
+                            };
+                            href = "https://api.spotify.com/v1/artists/5c4woKF4FctrsVMBcUQPgr";
+                            id = 5c4woKF4FctrsVMBcUQPgr;
+                            name = Helenamaria;
+                            type = artist;
+                            uri = "spotify:artist:5c4woKF4FctrsVMBcUQPgr";
+                        }
+                    );
+                    "available_markets" =                     (
+                        AD,
+                        AR,
+                        AT,
+                        AU,
+                        BE,
+                        BG,
+                        BO,
+                        BR,
+                        CA,
+                        CH,
+                        CL,
+                        CO,
+                        CR,
+                        CY,
+                        CZ,
+                        DE,
+                        DK,
+                        DO,
+                        EC,
+                        EE,
+                        ES,
+                        FI,
+                        FR,
+                        GB,
+                        GR,
+                        GT,
+                        HK,
+                        HN,
+                        HU,
+                        ID,
+                        IE,
+                        IS,
+                        IT,
+                        JP,
+                        LI,
+                        LT,
+                        LU,
+                        LV,
+                        MC,
+                        MT,
+                        MX,
+                        MY,
+                        NI,
+                        NL,
+                        NO,
+                        NZ,
+                        PA,
+                        PE,
+                        PH,
+                        PL,
+                        PT,
+                        PY,
+                        SE,
+                        SG,
+                        SK,
+                        SV,
+                        TR,
+                        TW,
+                        US,
+                        UY
+                    );
+                    "external_urls" =                     {
+                        spotify = "https://open.spotify.com/album/5ik2kQAPcsqMd8qEthgJOH";
+                    };
+                    href = "https://api.spotify.com/v1/albums/5ik2kQAPcsqMd8qEthgJOH";
+                    id = 5ik2kQAPcsqMd8qEthgJOH;
+                    images =                     (
+                                                {
+                            height = 640;
+                            url = "https://i.scdn.co/image/a5e238260e237922acde6bc7ec4a16074354d2ac";
+                            width = 640;
+                        },
+                                                {
+                            height = 300;
+                            url = "https://i.scdn.co/image/36255bd6a947502dde9db6b0ad4b2293e414d550";
+                            width = 300;
+                        },
+                                                {
+                            height = 64;
+                            url = "https://i.scdn.co/image/45c4fad12cf3d4d02d60766f174e95836c081f67";
+                            width = 64;
+                        }
+                    );
+                    name = "Love Story (Taylor Swift)";
+                    type = album;
+                    uri = "spotify:album:5ik2kQAPcsqMd8qEthgJOH";
+                };
+                artists =                 (
+                                        {
+                        "external_urls" =                         {
+                            spotify = "https://open.spotify.com/artist/5c4woKF4FctrsVMBcUQPgr";
+                        };
+                        href = "https://api.spotify.com/v1/artists/5c4woKF4FctrsVMBcUQPgr";
+                        id = 5c4woKF4FctrsVMBcUQPgr;
+                        name = Helenamaria;
+                        type = artist;
+                        uri = "spotify:artist:5c4woKF4FctrsVMBcUQPgr";
+                    }
+                );
+                "available_markets" =                 (
+                    AD,
+                    AR,
+                    AT,
+                    AU,
+                    BE,
+                    BG,
+                    BO,
+                    BR,
+                    CA,
+                    CH,
+                    CL,
+                    CO,
+                    CR,
+                    CY,
+                    CZ,
+                    DE,
+                    DK,
+                    DO,
+                    EC,
+                    EE,
+                    ES,
+                    FI,
+                    FR,
+                    GB,
+                    GR,
+                    GT,
+                    HK,
+                    HN,
+                    HU,
+                    ID,
+                    IE,
+                    IS,
+                    IT,
+                    JP,
+                    LI,
+                    LT,
+                    LU,
+                    LV,
+                    MC,
+                    MT,
+                    MX,
+                    MY,
+                    NI,
+                    NL,
+                    NO,
+                    NZ,
+                    PA,
+                    PE,
+                    PH,
+                    PL,
+                    PT,
+                    PY,
+                    SE,
+                    SG,
+                    SK,
+                    SV,
+                    TR,
+                    TW,
+                    US,
+                    UY
+                );
+                "disc_number" = 1;
+                "duration_ms" = 250549;
+                explicit = 0;
+                "external_ids" =                 {
+                    isrc = USZ7P0900001;
+                };
+                "external_urls" =                 {
+                    spotify = "https://open.spotify.com/track/1OTOJM0vx4DkCrJZ3pxT85";
+                };
+                href = "https://api.spotify.com/v1/tracks/1OTOJM0vx4DkCrJZ3pxT85";
+                id = 1OTOJM0vx4DkCrJZ3pxT85;
+                name = "Love Story (Taylor Swift)";
+                popularity = 45;
+                "preview_url" = "https://p.scdn.co/mp3-preview/16aa78bfbcae27ddec5e003755da425bd627951c?cid=92e3c1c70c9d46db9bacbc117447a0e5";
+                "track_number" = 1;
+                type = track;
+                uri = "spotify:track:1OTOJM0vx4DkCrJZ3pxT85";
+            },
+                        {
+                album =                 {
+                    "album_type" = album;
+                    artists =                     (
+                                                {
+                            "external_urls" =                             {
+                                spotify = "https://open.spotify.com/artist/0LyfQWJT6nXafLPZqxe9Of";
+                            };
+                            href = "https://api.spotify.com/v1/artists/0LyfQWJT6nXafLPZqxe9Of";
+                            id = 0LyfQWJT6nXafLPZqxe9Of;
+                            name = "Various Artists";
+                            type = artist;
+                            uri = "spotify:artist:0LyfQWJT6nXafLPZqxe9Of";
+                        }
+                    );
+                    "available_markets" =                     (
+                        AD,
+                        AR,
+                        AU,
+                        BE,
+                        BG,
+                        BO,
+                        BR,
+                        CH,
+                        CL,
+                        CO,
+                        CR,
+                        CY,
+                        CZ,
+                        DK,
+                        DO,
+                        EC,
+                        EE,
+                        ES,
+                        FI,
+                        GB,
+                        GR,
+                        GT,
+                        HK,
+                        HN,
+                        HU,
+                        ID,
+                        IE,
+                        IS,
+                        IT,
+                        JP,
+                        LI,
+                        LT,
+                        LU,
+                        LV,
+                        MC,
+                        MT,
+                        MY,
+                        NI,
+                        NL,
+                        NO,
+                        NZ,
+                        PA,
+                        PE,
+                        PH,
+                        PL,
+                        PT,
+                        PY,
+                        SE,
+                        SG,
+                        SK,
+                        SV,
+                        TR,
+                        TW,
+                        UY
+                    );
+                    "external_urls" =                     {
+                        spotify = "https://open.spotify.com/album/4RPo8gaqAbJksSE8JOIVLF";
+                    };
+                    href = "https://api.spotify.com/v1/albums/4RPo8gaqAbJksSE8JOIVLF";
+                    id = 4RPo8gaqAbJksSE8JOIVLF;
+                    images =                     (
+                                                {
+                            height = 640;
+                            url = "https://i.scdn.co/image/c8590563835cdb0f6b6c97ec95d038d31bdaa0cd";
+                            width = 640;
+                        },
+                                                {
+                            height = 300;
+                            url = "https://i.scdn.co/image/3ff11c9c743dda46ae71119252fc3db2a54334a3";
+                            width = 300;
+                        },
+                                                {
+                            height = 64;
+                            url = "https://i.scdn.co/image/8bf2ccb01c25cf7b314eec154dc0cdf42e3e67df";
+                            width = 64;
+                        }
+                    );
+                    name = "Fifty Shades Darker (Original Motion Picture Soundtrack)";
+                    type = album;
+                    uri = "spotify:album:4RPo8gaqAbJksSE8JOIVLF";
+                };
+                artists =                 (
+                                        {
+                        "external_urls" =                         {
+                            spotify = "https://open.spotify.com/artist/5ZsFI1h6hIdQRw2ti0hz81";
+                        };
+                        href = "https://api.spotify.com/v1/artists/5ZsFI1h6hIdQRw2ti0hz81";
+                        id = 5ZsFI1h6hIdQRw2ti0hz81;
+                        name = ZAYN;
+                        type = artist;
+                        uri = "spotify:artist:5ZsFI1h6hIdQRw2ti0hz81";
+                    },
+                                        {
+                        "external_urls" =                         {
+                            spotify = "https://open.spotify.com/artist/06HL4z0CvFAxyc27GXpf02";
+                        };
+                        href = "https://api.spotify.com/v1/artists/06HL4z0CvFAxyc27GXpf02";
+                        id = 06HL4z0CvFAxyc27GXpf02;
+                        name = "Taylor Swift";
+                        type = artist;
+                        uri = "spotify:artist:06HL4z0CvFAxyc27GXpf02";
+                    }
+                );
+                "available_markets" =                 (
+                    AD,
+                    AR,
+                    AU,
+                    BE,
+                    BG,
+                    BO,
+                    BR,
+                    CH,
+                    CL,
+                    CO,
+                    CR,
+                    CY,
+                    CZ,
+                    DK,
+                    DO,
+                    EC,
+                    EE,
+                    ES,
+                    FI,
+                    GB,
+                    GR,
+                    GT,
+                    HK,
+                    HN,
+                    HU,
+                    ID,
+                    IE,
+                    IS,
+                    IT,
+                    JP,
+                    LI,
+                    LT,
+                    LU,
+                    LV,
+                    MC,
+                    MT,
+                    MY,
+                    NI,
+                    NL,
+                    NO,
+                    NZ,
+                    PA,
+                    PE,
+                    PH,
+                    PL,
+                    PT,
+                    PY,
+                    SE,
+                    SG,
+                    SK,
+                    SV,
+                    TR,
+                    TW,
+                    UY
+                );
+                "disc_number" = 1;
+                "duration_ms" = 245653;
+                explicit = 0;
+                "external_ids" =                 {
+                    isrc = USQ4E1602586;
+                };
+                "external_urls" =                 {
+                    spotify = "https://open.spotify.com/track/3i7ICydraKgHigUqu2AOPy";
+                };
+                href = "https://api.spotify.com/v1/tracks/3i7ICydraKgHigUqu2AOPy";
+                id = 3i7ICydraKgHigUqu2AOPy;
+                name = "I Don\U2019t Wanna Live Forever (Fifty Shades Darker) - From \"Fifty Shades Darker (Original Motion Picture Soundtrack)\"";
+                popularity = 62;
+                "preview_url" = "<null>";
+                "track_number" = 1;
+                type = track;
+                uri = "spotify:track:3i7ICydraKgHigUqu2AOPy";
+            },
+                        {
+                album =                 {
+                    "album_type" = album;
+                    artists =                     (
+                                                {
+                            "external_urls" =                             {
+                                spotify = "https://open.spotify.com/artist/5ndkK3dpZLKtBklKjxNQwT";
+                            };
+                            href = "https://api.spotify.com/v1/artists/5ndkK3dpZLKtBklKjxNQwT";
+                            id = 5ndkK3dpZLKtBklKjxNQwT;
+                            name = "B.o.B";
+                            type = artist;
+                            uri = "spotify:artist:5ndkK3dpZLKtBklKjxNQwT";
+                        }
+                    );
+                    "available_markets" =                     (
+                        GB,
+                        IE
+                    );
+                    "external_urls" =                     {
+                        spotify = "https://open.spotify.com/album/6veu3unRO88zn1XzIt0OeS";
+                    };
+                    href = "https://api.spotify.com/v1/albums/6veu3unRO88zn1XzIt0OeS";
+                    id = 6veu3unRO88zn1XzIt0OeS;
+                    images =                     (
+                                                {
+                            height = 640;
+                            url = "https://i.scdn.co/image/bde8e80494aa893135f7eed99e1f3c442edf6d6f";
+                            width = 640;
+                        },
+                                                {
+                            height = 300;
+                            url = "https://i.scdn.co/image/61106334b1ca112c01828572a33c67aaf0d7ddb2";
+                            width = 300;
+                        },
+                                                {
+                            height = 64;
+                            url = "https://i.scdn.co/image/43dc385d7ac9e6fc26ce1f8c21b8876288f02ba7";
+                            width = 64;
+                        }
+                    );
+                    name = "Strange Clouds";
+                    type = album;
+                    uri = "spotify:album:6veu3unRO88zn1XzIt0OeS";
+                };
+                artists =                 (
+                                        {
+                        "external_urls" =                         {
+                            spotify = "https://open.spotify.com/artist/5ndkK3dpZLKtBklKjxNQwT";
+                        };
+                        href = "https://api.spotify.com/v1/artists/5ndkK3dpZLKtBklKjxNQwT";
+                        id = 5ndkK3dpZLKtBklKjxNQwT;
+                        name = "B.o.B";
+                        type = artist;
+                        uri = "spotify:artist:5ndkK3dpZLKtBklKjxNQwT";
+                    },
+                                        {
+                        "external_urls" =                         {
+                            spotify = "https://open.spotify.com/artist/06HL4z0CvFAxyc27GXpf02";
+                        };
+                        href = "https://api.spotify.com/v1/artists/06HL4z0CvFAxyc27GXpf02";
+                        id = 06HL4z0CvFAxyc27GXpf02;
+                        name = "Taylor Swift";
+                        type = artist;
+                        uri = "spotify:artist:06HL4z0CvFAxyc27GXpf02";
+                    }
+                );
+                "available_markets" =                 (
+                    GB,
+                    IE
+                );
+                "disc_number" = 1;
+                "duration_ms" = 216120;
+                explicit = 1;
+                "external_ids" =                 {
+                    isrc = USAT21201807;
+                };
+                "external_urls" =                 {
+                    spotify = "https://open.spotify.com/track/0IOCGDGD0qfw7ViWrWYxtw";
+                };
+                href = "https://api.spotify.com/v1/tracks/0IOCGDGD0qfw7ViWrWYxtw";
+                id = 0IOCGDGD0qfw7ViWrWYxtw;
+                name = "Both Of Us (feat. Taylor Swift)";
+                popularity = 38;
+                "preview_url" = "https://p.scdn.co/mp3-preview/9405e686afee716e7fe9a418fcc18ce3704f7002?cid=92e3c1c70c9d46db9bacbc117447a0e5";
+                "track_number" = 4;
+                type = track;
+                uri = "spotify:track:0IOCGDGD0qfw7ViWrWYxtw";
+            },
+                        {
+                album =                 {
+                    "album_type" = album;
+                    artists =                     (
+                                                {
+                            "external_urls" =                             {
+                                spotify = "https://open.spotify.com/artist/0LyfQWJT6nXafLPZqxe9Of";
+                            };
+                            href = "https://api.spotify.com/v1/artists/0LyfQWJT6nXafLPZqxe9Of";
+                            id = 0LyfQWJT6nXafLPZqxe9Of;
+                            name = "Various Artists";
+                            type = artist;
+                            uri = "spotify:artist:0LyfQWJT6nXafLPZqxe9Of";
+                        }
+                    );
+                    "available_markets" =                     (
+                        AD,
+                        AT,
+                        BE,
+                        BG,
+                        CH,
+                        CY,
+                        CZ,
+                        DE,
+                        DK,
+                        EE,
+                        ES,
+                        FI,
+                        FR,
+                        GB,
+                        GR,
+                        HU,
+                        IE,
+                        IS,
+                        IT,
+                        LI,
+                        LT,
+                        LU,
+                        LV,
+                        MC,
+                        MT,
+                        NL,
+                        NO,
+                        PL,
+                        PT,
+                        SE,
+                        SK,
+                        TR
+                    );
+                    "external_urls" =                     {
+                        spotify = "https://open.spotify.com/album/2A9353p2TeAkc5PwX900gz";
+                    };
+                    href = "https://api.spotify.com/v1/albums/2A9353p2TeAkc5PwX900gz";
+                    id = 2A9353p2TeAkc5PwX900gz;
+                    images =                     (
+                                                {
+                            height = 640;
+                            url = "https://i.scdn.co/image/74888b6deb125977344aa65b069cc4e6897f9eb2";
+                            width = 640;
+                        },
+                                                {
+                            height = 300;
+                            url = "https://i.scdn.co/image/e65ea03087800ce5f2ff8cde4fad20386f038c7d";
+                            width = 300;
+                        },
+                                                {
+                            height = 64;
+                            url = "https://i.scdn.co/image/146a8ae2efdbc70bf5175772d3c1fdabfce0792e";
+                            width = 64;
+                        }
+                    );
+                    name = "Hannah Montana The Movie";
+                    type = album;
+                    uri = "spotify:album:2A9353p2TeAkc5PwX900gz";
+                };
+                artists =                 (
+                                        {
+                        "external_urls" =                         {
+                            spotify = "https://open.spotify.com/artist/06HL4z0CvFAxyc27GXpf02";
+                        };
+                        href = "https://api.spotify.com/v1/artists/06HL4z0CvFAxyc27GXpf02";
+                        id = 06HL4z0CvFAxyc27GXpf02;
+                        name = "Taylor Swift";
+                        type = artist;
+                        uri = "spotify:artist:06HL4z0CvFAxyc27GXpf02";
+                    }
+                );
+                "available_markets" =                 (
+                    AD,
+                    AT,
+                    BE,
+                    BG,
+                    CH,
+                    CY,
+                    CZ,
+                    DE,
+                    DK,
+                    EE,
+                    ES,
+                    FI,
+                    FR,
+                    GB,
+                    GR,
+                    HU,
+                    IE,
+                    IS,
+                    IT,
+                    LI,
+                    LT,
+                    LU,
+                    LV,
+                    MC,
+                    MT,
+                    NL,
+                    NO,
+                    PL,
+                    PT,
+                    SE,
+                    SK,
+                    TR
+                );
+                "disc_number" = 1;
+                "duration_ms" = 192853;
+                explicit = 0;
+                "external_ids" =                 {
+                    isrc = USCJY0803263;
+                };
+                "external_urls" =                 {
+                    spotify = "https://open.spotify.com/track/3Gfx0rvzSpxUwpaOwLSnPV";
+                };
+                href = "https://api.spotify.com/v1/tracks/3Gfx0rvzSpxUwpaOwLSnPV";
+                id = 3Gfx0rvzSpxUwpaOwLSnPV;
+                name = Crazier;
+                popularity = 52;
+                "preview_url" = "<null>";
+                "track_number" = 12;
+                type = track;
+                uri = "spotify:track:3Gfx0rvzSpxUwpaOwLSnPV";
+            },
+                        {
+                album =                 {
+                    "album_type" = album;
+                    artists =                     (
+                                                {
+                            "external_urls" =                             {
+                                spotify = "https://open.spotify.com/artist/0LyfQWJT6nXafLPZqxe9Of";
+                            };
+                            href = "https://api.spotify.com/v1/artists/0LyfQWJT6nXafLPZqxe9Of";
+                            id = 0LyfQWJT6nXafLPZqxe9Of;
+                            name = "Various Artists";
+                            type = artist;
+                            uri = "spotify:artist:0LyfQWJT6nXafLPZqxe9Of";
+                        }
+                    );
+                    "available_markets" =                     (
+                        BE,
+                        BG,
+                        CY,
+                        CZ,
+                        DK,
+                        EE,
+                        ES,
+                        FI,
+                        GB,
+                        GR,
+                        HK,
+                        HU,
+                        IE,
+                        IS,
+                        IT,
+                        LT,
+                        LU,
+                        LV,
+                        MT,
+                        MY,
+                        NL,
+                        NO,
+                        NZ,
+                        PH,
+                        PL,
+                        PT,
+                        SE,
+                        SG,
+                        SK,
+                        TR,
+                        TW
+                    );
+                    "external_urls" =                     {
+                        spotify = "https://open.spotify.com/album/6FeANe1ewmN6sY0VY0qfyI";
+                    };
+                    href = "https://api.spotify.com/v1/albums/6FeANe1ewmN6sY0VY0qfyI";
+                    id = 6FeANe1ewmN6sY0VY0qfyI;
+                    images =                     (
+                                                {
+                            height = 640;
+                            url = "https://i.scdn.co/image/0d37acfc1d4c18f9386bcaa26aa9059ffb5df873";
+                            width = 640;
+                        },
+                                                {
+                            height = 300;
+                            url = "https://i.scdn.co/image/c109a2997e828485c5a72003512cacb77bdad0a1";
+                            width = 300;
+                        },
+                                                {
+                            height = 64;
+                            url = "https://i.scdn.co/image/5fbf34c77c140e170ebf69f86ea94a5266b59c17";
+                            width = 64;
+                        }
+                    );
+                    name = "The Hunger Games: Songs From District 12 And Beyond";
+                    type = album;
+                    uri = "spotify:album:6FeANe1ewmN6sY0VY0qfyI";
+                };
+                artists =                 (
+                                        {
+                        "external_urls" =                         {
+                            spotify = "https://open.spotify.com/artist/06HL4z0CvFAxyc27GXpf02";
+                        };
+                        href = "https://api.spotify.com/v1/artists/06HL4z0CvFAxyc27GXpf02";
+                        id = 06HL4z0CvFAxyc27GXpf02;
+                        name = "Taylor Swift";
+                        type = artist;
+                        uri = "spotify:artist:06HL4z0CvFAxyc27GXpf02";
+                    }
+                );
+                "available_markets" =                 (
+                    BE,
+                    BG,
+                    CY,
+                    CZ,
+                    DK,
+                    EE,
+                    ES,
+                    FI,
+                    GB,
+                    GR,
+                    HK,
+                    HU,
+                    IE,
+                    IS,
+                    IT,
+                    LT,
+                    LU,
+                    LV,
+                    MT,
+                    MY,
+                    NL,
+                    NO,
+                    NZ,
+                    PH,
+                    PL,
+                    PT,
+                    SE,
+                    SG,
+                    SK,
+                    TR,
+                    TW
+                );
+                "disc_number" = 1;
+                "duration_ms" = 244586;
+                explicit = 0;
+                "external_ids" =                 {
+                    isrc = USUM71201814;
+                };
+                "external_urls" =                 {
+                    spotify = "https://open.spotify.com/track/6KEemo78n0RnCQWKkeOdXz";
+                };
+                href = "https://api.spotify.com/v1/tracks/6KEemo78n0RnCQWKkeOdXz";
+                id = 6KEemo78n0RnCQWKkeOdXz;
+                name = "Eyes Open";
+                popularity = 49;
+                "preview_url" = "<null>";
+                "track_number" = 14;
+                type = track;
+                uri = "spotify:track:6KEemo78n0RnCQWKkeOdXz";
+            },
+                        {
+                album =                 {
+                    "album_type" = album;
+                    artists =                     (
+                                                {
+                            "external_urls" =                             {
+                                spotify = "https://open.spotify.com/artist/6roFdX1y5BYSbp60OTJWMd";
+                            };
+                            href = "https://api.spotify.com/v1/artists/6roFdX1y5BYSbp60OTJWMd";
+                            id = 6roFdX1y5BYSbp60OTJWMd;
+                            name = "Tim McGraw";
+                            type = artist;
+                            uri = "spotify:artist:6roFdX1y5BYSbp60OTJWMd";
+                        }
+                    );
+                    "available_markets" =                     (
+                        AD,
+                        AR,
+                        AT,
+                        AU,
+                        BE,
+                        BG,
+                        BO,
+                        BR,
+                        CH,
+                        CL,
+                        CO,
+                        CR,
+                        CY,
+                        CZ,
+                        DE,
+                        DK,
+                        DO,
+                        EC,
+                        EE,
+                        ES,
+                        FI,
+                        FR,
+                        GB,
+                        GR,
+                        GT,
+                        HK,
+                        HN,
+                        HU,
+                        ID,
+                        IE,
+                        IS,
+                        IT,
+                        JP,
+                        LI,
+                        LT,
+                        LU,
+                        LV,
+                        MC,
+                        MT,
+                        MY,
+                        NI,
+                        NL,
+                        NO,
+                        NZ,
+                        PA,
+                        PE,
+                        PH,
+                        PL,
+                        PT,
+                        PY,
+                        SE,
+                        SG,
+                        SK,
+                        SV,
+                        TR,
+                        TW,
+                        UY
+                    );
+                    "external_urls" =                     {
+                        spotify = "https://open.spotify.com/album/08eQjFT0T2EGVFG5WeCe2V";
+                    };
+                    href = "https://api.spotify.com/v1/albums/08eQjFT0T2EGVFG5WeCe2V";
+                    id = 08eQjFT0T2EGVFG5WeCe2V;
+                    images =                     (
+                                                {
+                            height = 640;
+                            url = "https://i.scdn.co/image/533a5fe61f62a1474d9c15a0fa83617b8948e1c5";
+                            width = 640;
+                        },
+                                                {
+                            height = 300;
+                            url = "https://i.scdn.co/image/8366ee9a88700122da31747ad59e590efaf2eb78";
+                            width = 300;
+                        },
+                                                {
+                            height = 64;
+                            url = "https://i.scdn.co/image/1fabe0dfe1f0bd1a56e9f994ae0f3460482055aa";
+                            width = 64;
+                        }
+                    );
+                    name = "Two Lanes Of Freedom";
+                    type = album;
+                    uri = "spotify:album:08eQjFT0T2EGVFG5WeCe2V";
+                };
+                artists =                 (
+                                        {
+                        "external_urls" =                         {
+                            spotify = "https://open.spotify.com/artist/6roFdX1y5BYSbp60OTJWMd";
+                        };
+                        href = "https://api.spotify.com/v1/artists/6roFdX1y5BYSbp60OTJWMd";
+                        id = 6roFdX1y5BYSbp60OTJWMd;
+                        name = "Tim McGraw";
+                        type = artist;
+                        uri = "spotify:artist:6roFdX1y5BYSbp60OTJWMd";
+                    },
+                                        {
+                        "external_urls" =                         {
+                            spotify = "https://open.spotify.com/artist/06HL4z0CvFAxyc27GXpf02";
+                        };
+                        href = "https://api.spotify.com/v1/artists/06HL4z0CvFAxyc27GXpf02";
+                        id = 06HL4z0CvFAxyc27GXpf02;
+                        name = "Taylor Swift";
+                        type = artist;
+                        uri = "spotify:artist:06HL4z0CvFAxyc27GXpf02";
+                    },
+                                        {
+                        "external_urls" =                         {
+                            spotify = "https://open.spotify.com/artist/0u2FHSq3ln94y5Q57xazwf";
+                        };
+                        href = "https://api.spotify.com/v1/artists/0u2FHSq3ln94y5Q57xazwf";
+                        id = 0u2FHSq3ln94y5Q57xazwf;
+                        name = "Keith Urban";
+                        type = artist;
+                        uri = "spotify:artist:0u2FHSq3ln94y5Q57xazwf";
+                    }
+                );
+                "available_markets" =                 (
+                    AD,
+                    AR,
+                    AT,
+                    AU,
+                    BE,
+                    BG,
+                    BO,
+                    BR,
+                    CH,
+                    CL,
+                    CO,
+                    CR,
+                    CY,
+                    CZ,
+                    DE,
+                    DK,
+                    DO,
+                    EC,
+                    EE,
+                    ES,
+                    FI,
+                    FR,
+                    GB,
+                    GR,
+                    GT,
+                    HK,
+                    HN,
+                    HU,
+                    ID,
+                    IE,
+                    IS,
+                    IT,
+                    JP,
+                    LI,
+                    LT,
+                    LU,
+                    LV,
+                    MC,
+                    MT,
+                    MY,
+                    NI,
+                    NL,
+                    NO,
+                    NZ,
+                    PA,
+                    PE,
+                    PH,
+                    PL,
+                    PT,
+                    PY,
+                    SE,
+                    SG,
+                    SK,
+                    SV,
+                    TR,
+                    TW,
+                    UY
+                );
+                "disc_number" = 1;
+                "duration_ms" = 279066;
+                explicit = 0;
+                "external_ids" =                 {
+                    isrc = USCJY1218027;
+                };
+                "external_urls" =                 {
+                    spotify = "https://open.spotify.com/track/60hGQrn24APqEFSLObLeDc";
+                };
+                href = "https://api.spotify.com/v1/tracks/60hGQrn24APqEFSLObLeDc";
+                id = 60hGQrn24APqEFSLObLeDc;
+                name = "Highway Don't Care";
+                popularity = 54;
+                "preview_url" = "<null>";
+                "track_number" = 13;
+                type = track;
+                uri = "spotify:track:60hGQrn24APqEFSLObLeDc";
+            },
+                        {
+                album =                 {
+                    "album_type" = album;
+                    artists =                     (
+                                                {
+                            "external_urls" =                             {
+                                spotify = "https://open.spotify.com/artist/0vWCyXMrrvMlCcepuOJaGI";
+                            };
+                            href = "https://api.spotify.com/v1/artists/0vWCyXMrrvMlCcepuOJaGI";
+                            id = 0vWCyXMrrvMlCcepuOJaGI;
+                            name = "Boys Like Girls";
+                            type = artist;
+                            uri = "spotify:artist:0vWCyXMrrvMlCcepuOJaGI";
+                        }
+                    );
+                    "available_markets" =                     (
+                        AD,
+                        AR,
+                        AT,
+                        AU,
+                        BE,
+                        BG,
+                        BO,
+                        BR,
+                        CA,
+                        CL,
+                        CO,
+                        CR,
+                        CY,
+                        CZ,
+                        DE,
+                        DK,
+                        DO,
+                        EC,
+                        EE,
+                        ES,
+                        FI,
+                        FR,
+                        GB,
+                        GR,
+                        GT,
+                        HK,
+                        HN,
+                        HU,
+                        ID,
+                        IE,
+                        IS,
+                        IT,
+                        JP,
+                        LT,
+                        LU,
+                        LV,
+                        MC,
+                        MT,
+                        MX,
+                        MY,
+                        NI,
+                        NL,
+                        NO,
+                        NZ,
+                        PA,
+                        PE,
+                        PH,
+                        PL,
+                        PT,
+                        PY,
+                        SE,
+                        SG,
+                        SK,
+                        SV,
+                        TR,
+                        TW,
+                        US,
+                        UY
+                    );
+                    "external_urls" =                     {
+                        spotify = "https://open.spotify.com/album/7DphDayDRJ1NtRmveflFWD";
+                    };
+                    href = "https://api.spotify.com/v1/albums/7DphDayDRJ1NtRmveflFWD";
+                    id = 7DphDayDRJ1NtRmveflFWD;
+                    images =                     (
+                                                {
+                            height = 640;
+                            url = "https://i.scdn.co/image/64c726591ffb967d81797adcc5ea9be18592b5ba";
+                            width = 640;
+                        },
+                                                {
+                            height = 300;
+                            url = "https://i.scdn.co/image/feb41b8aee43a1ebe0ad219259527428b30bb332";
+                            width = 300;
+                        },
+                                                {
+                            height = 64;
+                            url = "https://i.scdn.co/image/028f35a269d57151910c3a16cbea59a25f9baea1";
+                            width = 64;
+                        }
+                    );
+                    name = "Love Drunk";
+                    type = album;
+                    uri = "spotify:album:7DphDayDRJ1NtRmveflFWD";
+                };
+                artists =                 (
+                                        {
+                        "external_urls" =                         {
+                            spotify = "https://open.spotify.com/artist/0vWCyXMrrvMlCcepuOJaGI";
+                        };
+                        href = "https://api.spotify.com/v1/artists/0vWCyXMrrvMlCcepuOJaGI";
+                        id = 0vWCyXMrrvMlCcepuOJaGI;
+                        name = "Boys Like Girls";
+                        type = artist;
+                        uri = "spotify:artist:0vWCyXMrrvMlCcepuOJaGI";
+                    },
+                                        {
+                        "external_urls" =                         {
+                            spotify = "https://open.spotify.com/artist/06HL4z0CvFAxyc27GXpf02";
+                        };
+                        href = "https://api.spotify.com/v1/artists/06HL4z0CvFAxyc27GXpf02";
+                        id = 06HL4z0CvFAxyc27GXpf02;
+                        name = "Taylor Swift";
+                        type = artist;
+                        uri = "spotify:artist:06HL4z0CvFAxyc27GXpf02";
+                    }
+                );
+                "available_markets" =                 (
+                    AD,
+                    AR,
+                    AT,
+                    AU,
+                    BE,
+                    BG,
+                    BO,
+                    BR,
+                    CA,
+                    CL,
+                    CO,
+                    CR,
+                    CY,
+                    CZ,
+                    DE,
+                    DK,
+                    DO,
+                    EC,
+                    EE,
+                    ES,
+                    FI,
+                    FR,
+                    GB,
+                    GR,
+                    GT,
+                    HK,
+                    HN,
+                    HU,
+                    ID,
+                    IE,
+                    IS,
+                    IT,
+                    JP,
+                    LT,
+                    LU,
+                    LV,
+                    MC,
+                    MT,
+                    MX,
+                    MY,
+                    NI,
+                    NL,
+                    NO,
+                    NZ,
+                    PA,
+                    PE,
+                    PH,
+                    PL,
+                    PT,
+                    PY,
+                    SE,
+                    SG,
+                    SK,
+                    SV,
+                    TR,
+                    TW,
+                    US,
+                    UY
+                );
+                "disc_number" = 1;
+                "duration_ms" = 242840;
+                explicit = 0;
+                "external_ids" =                 {
+                    isrc = USSM10904174;
+                };
+                "external_urls" =                 {
+                    spotify = "https://open.spotify.com/track/1MaqkdFNIKPdpQGDzme5ss";
+                };
+                href = "https://api.spotify.com/v1/tracks/1MaqkdFNIKPdpQGDzme5ss";
+                id = 1MaqkdFNIKPdpQGDzme5ss;
+                name = "Two Is Better Than One";
+                popularity = 62;
+                "preview_url" = "https://p.scdn.co/mp3-preview/59cef672f643870e7a4b68a291939670fc9be6d1?cid=92e3c1c70c9d46db9bacbc117447a0e5";
+                "track_number" = 4;
+                type = track;
+                uri = "spotify:track:1MaqkdFNIKPdpQGDzme5ss";
+            },
+                        {
+                album =                 {
+                    "album_type" = album;
+                    artists =                     (
+                                                {
+                            "external_urls" =                             {
+                                spotify = "https://open.spotify.com/artist/7kwEvDE8e7EBGKh5bLczqQ";
+                            };
+                            href = "https://api.spotify.com/v1/artists/7kwEvDE8e7EBGKh5bLczqQ";
+                            id = 7kwEvDE8e7EBGKh5bLczqQ;
+                            name = "Anthem Lights";
+                            type = artist;
+                            uri = "spotify:artist:7kwEvDE8e7EBGKh5bLczqQ";
+                        }
+                    );
+                    "available_markets" =                     (
+                        AD,
+                        AR,
+                        AT,
+                        AU,
+                        BE,
+                        BG,
+                        BO,
+                        BR,
+                        CA,
+                        CH,
+                        CL,
+                        CO,
+                        CR,
+                        CY,
+                        CZ,
+                        DE,
+                        DK,
+                        DO,
+                        EC,
+                        EE,
+                        ES,
+                        FI,
+                        FR,
+                        GB,
+                        GR,
+                        GT,
+                        HK,
+                        HN,
+                        HU,
+                        ID,
+                        IE,
+                        IS,
+                        IT,
+                        JP,
+                        LI,
+                        LT,
+                        LU,
+                        LV,
+                        MC,
+                        MT,
+                        MX,
+                        MY,
+                        NI,
+                        NL,
+                        NO,
+                        NZ,
+                        PA,
+                        PE,
+                        PH,
+                        PL,
+                        PT,
+                        PY,
+                        SE,
+                        SG,
+                        SK,
+                        SV,
+                        TR,
+                        TW,
+                        US,
+                        UY
+                    );
+                    "external_urls" =                     {
+                        spotify = "https://open.spotify.com/album/1eyJJVhvOgnSD8FdVHV1qT";
+                    };
+                    href = "https://api.spotify.com/v1/albums/1eyJJVhvOgnSD8FdVHV1qT";
+                    id = 1eyJJVhvOgnSD8FdVHV1qT;
+                    images =                     (
+                                                {
+                            height = 640;
+                            url = "https://i.scdn.co/image/eba34ffa0cc5f6cbc176c9cddcf826aee0f88303";
+                            width = 640;
+                        },
+                                                {
+                            height = 300;
+                            url = "https://i.scdn.co/image/048158fa27a21b1a387509788f7f904d1f04963a";
+                            width = 300;
+                        },
+                                                {
+                            height = 64;
+                            url = "https://i.scdn.co/image/dedc625f89ee17f892b03abfabe9569fb10af521";
+                            width = 64;
+                        }
+                    );
+                    name = "Anthem Lights Covers Part II";
+                    type = album;
+                    uri = "spotify:album:1eyJJVhvOgnSD8FdVHV1qT";
+                };
+                artists =                 (
+                                        {
+                        "external_urls" =                         {
+                            spotify = "https://open.spotify.com/artist/7kwEvDE8e7EBGKh5bLczqQ";
+                        };
+                        href = "https://api.spotify.com/v1/artists/7kwEvDE8e7EBGKh5bLczqQ";
+                        id = 7kwEvDE8e7EBGKh5bLczqQ;
+                        name = "Anthem Lights";
+                        type = artist;
+                        uri = "spotify:artist:7kwEvDE8e7EBGKh5bLczqQ";
+                    }
+                );
+                "available_markets" =                 (
+                    AD,
+                    AR,
+                    AT,
+                    AU,
+                    BE,
+                    BG,
+                    BO,
+                    BR,
+                    CA,
+                    CH,
+                    CL,
+                    CO,
+                    CR,
+                    CY,
+                    CZ,
+                    DE,
+                    DK,
+                    DO,
+                    EC,
+                    EE,
+                    ES,
+                    FI,
+                    FR,
+                    GB,
+                    GR,
+                    GT,
+                    HK,
+                    HN,
+                    HU,
+                    ID,
+                    IE,
+                    IS,
+                    IT,
+                    JP,
+                    LI,
+                    LT,
+                    LU,
+                    LV,
+                    MC,
+                    MT,
+                    MX,
+                    MY,
+                    NI,
+                    NL,
+                    NO,
+                    NZ,
+                    PA,
+                    PE,
+                    PH,
+                    PL,
+                    PT,
+                    PY,
+                    SE,
+                    SG,
+                    SK,
+                    SV,
+                    TR,
+                    TW,
+                    US,
+                    UY
+                );
+                "disc_number" = 1;
+                "duration_ms" = 279331;
+                explicit = 0;
+                "external_ids" =                 {
+                    isrc = TCABR1323521;
+                };
+                "external_urls" =                 {
+                    spotify = "https://open.spotify.com/track/1SSj8VnmFs7jDDGUddEOoY";
+                };
+                href = "https://api.spotify.com/v1/tracks/1SSj8VnmFs7jDDGUddEOoY";
+                id = 1SSj8VnmFs7jDDGUddEOoY;
+                name = "Taylor Swift Mash-Up";
+                popularity = 50;
+                "preview_url" = "https://p.scdn.co/mp3-preview/be6c87401b204fe3108907311af75d25b7ea4666?cid=92e3c1c70c9d46db9bacbc117447a0e5";
+                "track_number" = 7;
+                type = track;
+                uri = "spotify:track:1SSj8VnmFs7jDDGUddEOoY";
+            },
+                        {
+                album =                 {
+                    "album_type" = single;
+                    artists =                     (
+                                                {
+                            "external_urls" =                             {
+                                spotify = "https://open.spotify.com/artist/2A5VOguZzXMBrg27MEUZcp";
+                            };
+                            href = "https://api.spotify.com/v1/artists/2A5VOguZzXMBrg27MEUZcp";
+                            id = 2A5VOguZzXMBrg27MEUZcp;
+                            name = "Twenty One Two";
+                            type = artist;
+                            uri = "spotify:artist:2A5VOguZzXMBrg27MEUZcp";
+                        }
+                    );
+                    "available_markets" =                     (
+                        AD,
+                        AR,
+                        AT,
+                        AU,
+                        BE,
+                        BG,
+                        BO,
+                        BR,
+                        CA,
+                        CH,
+                        CL,
+                        CO,
+                        CR,
+                        CY,
+                        CZ,
+                        DE,
+                        DK,
+                        DO,
+                        EC,
+                        EE,
+                        ES,
+                        FI,
+                        FR,
+                        GB,
+                        GR,
+                        GT,
+                        HK,
+                        HN,
+                        HU,
+                        ID,
+                        IE,
+                        IS,
+                        IT,
+                        JP,
+                        LI,
+                        LT,
+                        LU,
+                        LV,
+                        MC,
+                        MT,
+                        MX,
+                        MY,
+                        NI,
+                        NL,
+                        NO,
+                        NZ,
+                        PA,
+                        PE,
+                        PH,
+                        PL,
+                        PT,
+                        PY,
+                        SE,
+                        SG,
+                        SK,
+                        SV,
+                        TR,
+                        TW,
+                        US,
+                        UY
+                    );
+                    "external_urls" =                     {
+                        spotify = "https://open.spotify.com/album/6bt5WpQoztz4TZWaZSbG6J";
+                    };
+                    href = "https://api.spotify.com/v1/albums/6bt5WpQoztz4TZWaZSbG6J";
+                    id = 6bt5WpQoztz4TZWaZSbG6J;
+                    images =                     (
+                                                {
+                            height = 640;
+                            url = "https://i.scdn.co/image/2ec8a558580d852ff409c74cb9009749a77bcd51";
+                            width = 640;
+                        },
+                                                {
+                            height = 300;
+                            url = "https://i.scdn.co/image/8335fa688380a73894768f99d6b81d51dff23288";
+                            width = 300;
+                        },
+                                                {
+                            height = 64;
+                            url = "https://i.scdn.co/image/a870e8b66e48da3b6eb7438746dba6974b4dc674";
+                            width = 64;
+                        }
+                    );
+                    name = "Shake It Off (Orig. by Taylor Swift)";
+                    type = album;
+                    uri = "spotify:album:6bt5WpQoztz4TZWaZSbG6J";
+                };
+                artists =                 (
+                                        {
+                        "external_urls" =                         {
+                            spotify = "https://open.spotify.com/artist/2A5VOguZzXMBrg27MEUZcp";
+                        };
+                        href = "https://api.spotify.com/v1/artists/2A5VOguZzXMBrg27MEUZcp";
+                        id = 2A5VOguZzXMBrg27MEUZcp;
+                        name = "Twenty One Two";
+                        type = artist;
+                        uri = "spotify:artist:2A5VOguZzXMBrg27MEUZcp";
+                    }
+                );
+                "available_markets" =                 (
+                    AD,
+                    AR,
+                    AT,
+                    AU,
+                    BE,
+                    BG,
+                    BO,
+                    BR,
+                    CA,
+                    CH,
+                    CL,
+                    CO,
+                    CR,
+                    CY,
+                    CZ,
+                    DE,
+                    DK,
+                    DO,
+                    EC,
+                    EE,
+                    ES,
+                    FI,
+                    FR,
+                    GB,
+                    GR,
+                    GT,
+                    HK,
+                    HN,
+                    HU,
+                    ID,
+                    IE,
+                    IS,
+                    IT,
+                    JP,
+                    LI,
+                    LT,
+                    LU,
+                    LV,
+                    MC,
+                    MT,
+                    MX,
+                    MY,
+                    NI,
+                    NL,
+                    NO,
+                    NZ,
+                    PA,
+                    PE,
+                    PH,
+                    PL,
+                    PT,
+                    PY,
+                    SE,
+                    SG,
+                    SK,
+                    SV,
+                    TR,
+                    TW,
+                    US,
+                    UY
+                );
+                "disc_number" = 1;
+                "duration_ms" = 217602;
+                explicit = 0;
+                "external_ids" =                 {
+                    isrc = USE830935454;
+                };
+                "external_urls" =                 {
+                    spotify = "https://open.spotify.com/track/1j2sRZpFUzG6wPJGfRvet3";
+                };
+                href = "https://api.spotify.com/v1/tracks/1j2sRZpFUzG6wPJGfRvet3";
+                id = 1j2sRZpFUzG6wPJGfRvet3;
+                name = "Shake It Off";
+                popularity = 48;
+                "preview_url" = "https://p.scdn.co/mp3-preview/9e8541984ae86d55096a36d19dd9a26bf8d539c1?cid=92e3c1c70c9d46db9bacbc117447a0e5";
+                "track_number" = 1;
+                type = track;
+                uri = "spotify:track:1j2sRZpFUzG6wPJGfRvet3";
+            },
+                        {
+                album =                 {
+                    "album_type" = album;
+                    artists =                     (
+                                                {
+                            "external_urls" =                             {
+                                spotify = "https://open.spotify.com/artist/7gOdHgIoIKoe4i9Tta6qdD";
+                            };
+                            href = "https://api.spotify.com/v1/artists/7gOdHgIoIKoe4i9Tta6qdD";
+                            id = 7gOdHgIoIKoe4i9Tta6qdD;
+                            name = "Jonas Brothers";
+                            type = artist;
+                            uri = "spotify:artist:7gOdHgIoIKoe4i9Tta6qdD";
+                        }
+                    );
+                    "available_markets" =                     (
+                        AT,
+                        BE,
+                        CH,
+                        CZ,
+                        DE,
+                        DK,
+                        FI,
+                        FR,
+                        GB,
+                        HK,
+                        IE,
+                        MY,
+                        NL,
+                        NO,
+                        PL,
+                        PT,
+                        SE,
+                        SG,
+                        SK
+                    );
+                    "external_urls" =                     {
+                        spotify = "https://open.spotify.com/album/4tqB6S5FcWfHj1BznAKOa9";
+                    };
+                    href = "https://api.spotify.com/v1/albums/4tqB6S5FcWfHj1BznAKOa9";
+                    id = 4tqB6S5FcWfHj1BznAKOa9;
+                    images =                     (
+                                                {
+                            height = 640;
+                            url = "https://i.scdn.co/image/ddf13d36b68355d6d168d1656684c1f3432b892f";
+                            width = 638;
+                        },
+                                                {
+                            height = 300;
+                            url = "https://i.scdn.co/image/ac13d9322a6b453d61d54779458c331e5d3e9c7c";
+                            width = 299;
+                        },
+                                                {
+                            height = 64;
+                            url = "https://i.scdn.co/image/c7dddfe16cc17ef5ecb480399ebd5ec9ee8d7e41";
+                            width = 64;
+                        }
+                    );
+                    name = "Music from the 3D Concert Experience (International Version)";
+                    type = album;
+                    uri = "spotify:album:4tqB6S5FcWfHj1BznAKOa9";
+                };
+                artists =                 (
+                                        {
+                        "external_urls" =                         {
+                            spotify = "https://open.spotify.com/artist/7gOdHgIoIKoe4i9Tta6qdD";
+                        };
+                        href = "https://api.spotify.com/v1/artists/7gOdHgIoIKoe4i9Tta6qdD";
+                        id = 7gOdHgIoIKoe4i9Tta6qdD;
+                        name = "Jonas Brothers";
+                        type = artist;
+                        uri = "spotify:artist:7gOdHgIoIKoe4i9Tta6qdD";
+                    },
+                                        {
+                        "external_urls" =                         {
+                            spotify = "https://open.spotify.com/artist/06HL4z0CvFAxyc27GXpf02";
+                        };
+                        href = "https://api.spotify.com/v1/artists/06HL4z0CvFAxyc27GXpf02";
+                        id = 06HL4z0CvFAxyc27GXpf02;
+                        name = "Taylor Swift";
+                        type = artist;
+                        uri = "spotify:artist:06HL4z0CvFAxyc27GXpf02";
+                    }
+                );
+                "available_markets" =                 (
+                    AT,
+                    BE,
+                    CH,
+                    CZ,
+                    DE,
+                    DK,
+                    FI,
+                    FR,
+                    GB,
+                    HK,
+                    IE,
+                    MY,
+                    NL,
+                    NO,
+                    PL,
+                    PT,
+                    SE,
+                    SG,
+                    SK
+                );
+                "disc_number" = 1;
+                "duration_ms" = 253800;
+                explicit = 0;
+                "external_ids" =                 {
+                    isrc = USHR10924303;
+                };
+                "external_urls" =                 {
+                    spotify = "https://open.spotify.com/track/1ivrHPh32bxjXiXwXVLMSZ";
+                };
+                href = "https://api.spotify.com/v1/tracks/1ivrHPh32bxjXiXwXVLMSZ";
+                id = 1ivrHPh32bxjXiXwXVLMSZ;
+                name = "Should've Said No - Live Show / Event";
+                popularity = 43;
+                "preview_url" = "<null>";
+                "track_number" = 8;
+                type = track;
+                uri = "spotify:track:1ivrHPh32bxjXiXwXVLMSZ";
+            },
+                        {
+                album =                 {
+                    "album_type" = single;
+                    artists =                     (
+                                                {
+                            "external_urls" =                             {
+                                spotify = "https://open.spotify.com/artist/2x7EATekOPhFGRx3syMGEC";
+                            };
+                            href = "https://api.spotify.com/v1/artists/2x7EATekOPhFGRx3syMGEC";
+                            id = 2x7EATekOPhFGRx3syMGEC;
+                            name = "The Knocks";
+                            type = artist;
+                            uri = "spotify:artist:2x7EATekOPhFGRx3syMGEC";
+                        },
+                                                {
+                            "external_urls" =                             {
+                                spotify = "https://open.spotify.com/artist/1mU61l2mcjEFraXZLpvVMo";
+                            };
+                            href = "https://api.spotify.com/v1/artists/1mU61l2mcjEFraXZLpvVMo";
+                            id = 1mU61l2mcjEFraXZLpvVMo;
+                            name = "Matthew Koma";
+                            type = artist;
+                            uri = "spotify:artist:1mU61l2mcjEFraXZLpvVMo";
+                        }
+                    );
+                    "available_markets" =                     (
+                        AD,
+                        AR,
+                        AT,
+                        AU,
+                        BE,
+                        BG,
+                        BO,
+                        BR,
+                        CA,
+                        CH,
+                        CL,
+                        CO,
+                        CR,
+                        CY,
+                        CZ,
+                        DE,
+                        DK,
+                        DO,
+                        EC,
+                        EE,
+                        ES,
+                        FI,
+                        FR,
+                        GB,
+                        GR,
+                        GT,
+                        HK,
+                        HN,
+                        HU,
+                        ID,
+                        IE,
+                        IS,
+                        IT,
+                        LI,
+                        LT,
+                        LU,
+                        LV,
+                        MC,
+                        MT,
+                        MX,
+                        MY,
+                        NI,
+                        NL,
+                        NO,
+                        NZ,
+                        PA,
+                        PE,
+                        PH,
+                        PL,
+                        PT,
+                        PY,
+                        SE,
+                        SG,
+                        SK,
+                        SV,
+                        TR,
+                        TW,
+                        UY
+                    );
+                    "external_urls" =                     {
+                        spotify = "https://open.spotify.com/album/10wCbogVbXiWncdm5hkLJv";
+                    };
+                    href = "https://api.spotify.com/v1/albums/10wCbogVbXiWncdm5hkLJv";
+                    id = 10wCbogVbXiWncdm5hkLJv;
+                    images =                     (
+                                                {
+                            height = 640;
+                            url = "https://i.scdn.co/image/8f8555cd73235e26c2848f19758b42dc215368f9";
+                            width = 640;
+                        },
+                                                {
+                            height = 300;
+                            url = "https://i.scdn.co/image/4be3f4e97ed3c3c0faf9c463cac4edd4cf7aba69";
+                            width = 300;
+                        },
+                                                {
+                            height = 64;
+                            url = "https://i.scdn.co/image/de8dd27e58210bb05a7aaecf1c515cf3e0533ba4";
+                            width = 64;
+                        }
+                    );
+                    name = "I Wish (My Taylor Swift)";
+                    type = album;
+                    uri = "spotify:album:10wCbogVbXiWncdm5hkLJv";
+                };
+                artists =                 (
+                                        {
+                        "external_urls" =                         {
+                            spotify = "https://open.spotify.com/artist/2x7EATekOPhFGRx3syMGEC";
+                        };
+                        href = "https://api.spotify.com/v1/artists/2x7EATekOPhFGRx3syMGEC";
+                        id = 2x7EATekOPhFGRx3syMGEC;
+                        name = "The Knocks";
+                        type = artist;
+                        uri = "spotify:artist:2x7EATekOPhFGRx3syMGEC";
+                    },
+                                        {
+                        "external_urls" =                         {
+                            spotify = "https://open.spotify.com/artist/1mU61l2mcjEFraXZLpvVMo";
+                        };
+                        href = "https://api.spotify.com/v1/artists/1mU61l2mcjEFraXZLpvVMo";
+                        id = 1mU61l2mcjEFraXZLpvVMo;
+                        name = "Matthew Koma";
+                        type = artist;
+                        uri = "spotify:artist:1mU61l2mcjEFraXZLpvVMo";
+                    }
+                );
+                "available_markets" =                 (
+                    AD,
+                    AR,
+                    AT,
+                    AU,
+                    BE,
+                    BG,
+                    BO,
+                    BR,
+                    CA,
+                    CH,
+                    CL,
+                    CO,
+                    CR,
+                    CY,
+                    CZ,
+                    DE,
+                    DK,
+                    DO,
+                    EC,
+                    EE,
+                    ES,
+                    FI,
+                    FR,
+                    GB,
+                    GR,
+                    GT,
+                    HK,
+                    HN,
+                    HU,
+                    ID,
+                    IE,
+                    IS,
+                    IT,
+                    LI,
+                    LT,
+                    LU,
+                    LV,
+                    MC,
+                    MT,
+                    MX,
+                    MY,
+                    NI,
+                    NL,
+                    NO,
+                    NZ,
+                    PA,
+                    PE,
+                    PH,
+                    PL,
+                    PT,
+                    PY,
+                    SE,
+                    SG,
+                    SK,
+                    SV,
+                    TR,
+                    TW,
+                    UY
+                );
+                "disc_number" = 1;
+                "duration_ms" = 224016;
+                explicit = 1;
+                "external_ids" =                 {
+                    isrc = USAT21502485;
+                };
+                "external_urls" =                 {
+                    spotify = "https://open.spotify.com/track/2AXGzTR7VJBRD44dHpZwtr";
+                };
+                href = "https://api.spotify.com/v1/tracks/2AXGzTR7VJBRD44dHpZwtr";
+                id = 2AXGzTR7VJBRD44dHpZwtr;
+                name = "I Wish (My Taylor Swift)";
+                popularity = 42;
+                "preview_url" = "https://p.scdn.co/mp3-preview/13d0f47495dc16cbbe484a043f89173f3d7e3cb3?cid=92e3c1c70c9d46db9bacbc117447a0e5";
+                "track_number" = 1;
+                type = track;
+                uri = "spotify:track:2AXGzTR7VJBRD44dHpZwtr";
+            },
+                        {
+                album =                 {
+                    "album_type" = album;
+                    artists =                     (
+                                                {
+                            "external_urls" =                             {
+                                spotify = "https://open.spotify.com/artist/2x7EATekOPhFGRx3syMGEC";
+                            };
+                            href = "https://api.spotify.com/v1/artists/2x7EATekOPhFGRx3syMGEC";
+                            id = 2x7EATekOPhFGRx3syMGEC;
+                            name = "The Knocks";
+                            type = artist;
+                            uri = "spotify:artist:2x7EATekOPhFGRx3syMGEC";
+                        }
+                    );
+                    "available_markets" =                     (
+                        AD,
+                        AR,
+                        AT,
+                        AU,
+                        BE,
+                        BG,
+                        BO,
+                        BR,
+                        CA,
+                        CH,
+                        CL,
+                        CO,
+                        CR,
+                        CY,
+                        CZ,
+                        DE,
+                        DK,
+                        DO,
+                        EC,
+                        EE,
+                        ES,
+                        FI,
+                        FR,
+                        GB,
+                        GR,
+                        GT,
+                        HK,
+                        HN,
+                        HU,
+                        ID,
+                        IE,
+                        IS,
+                        IT,
+                        LI,
+                        LT,
+                        LU,
+                        LV,
+                        MC,
+                        MT,
+                        MX,
+                        MY,
+                        NI,
+                        NL,
+                        NO,
+                        NZ,
+                        PA,
+                        PE,
+                        PH,
+                        PL,
+                        PT,
+                        PY,
+                        SE,
+                        SG,
+                        SK,
+                        SV,
+                        TR,
+                        TW,
+                        US,
+                        UY
+                    );
+                    "external_urls" =                     {
+                        spotify = "https://open.spotify.com/album/66eHI59X5UEaLrEqrEDKTx";
+                    };
+                    href = "https://api.spotify.com/v1/albums/66eHI59X5UEaLrEqrEDKTx";
+                    id = 66eHI59X5UEaLrEqrEDKTx;
+                    images =                     (
+                                                {
+                            height = 640;
+                            url = "https://i.scdn.co/image/015c082775bd987c5ffb2f154354c6dac2846e62";
+                            width = 640;
+                        },
+                                                {
+                            height = 300;
+                            url = "https://i.scdn.co/image/1ac1bc54a1794696057d358a25486c134dc03fc8";
+                            width = 300;
+                        },
+                                                {
+                            height = 64;
+                            url = "https://i.scdn.co/image/9f05af43ccdabb2d4e5e701ae0f0d55a4cf125da";
+                            width = 64;
+                        }
+                    );
+                    name = 55;
+                    type = album;
+                    uri = "spotify:album:66eHI59X5UEaLrEqrEDKTx";
+                };
+                artists =                 (
+                                        {
+                        "external_urls" =                         {
+                            spotify = "https://open.spotify.com/artist/2x7EATekOPhFGRx3syMGEC";
+                        };
+                        href = "https://api.spotify.com/v1/artists/2x7EATekOPhFGRx3syMGEC";
+                        id = 2x7EATekOPhFGRx3syMGEC;
+                        name = "The Knocks";
+                        type = artist;
+                        uri = "spotify:artist:2x7EATekOPhFGRx3syMGEC";
+                    },
+                                        {
+                        "external_urls" =                         {
+                            spotify = "https://open.spotify.com/artist/1mU61l2mcjEFraXZLpvVMo";
+                        };
+                        href = "https://api.spotify.com/v1/artists/1mU61l2mcjEFraXZLpvVMo";
+                        id = 1mU61l2mcjEFraXZLpvVMo;
+                        name = "Matthew Koma";
+                        type = artist;
+                        uri = "spotify:artist:1mU61l2mcjEFraXZLpvVMo";
+                    }
+                );
+                "available_markets" =                 (
+                    AD,
+                    AR,
+                    AT,
+                    AU,
+                    BE,
+                    BG,
+                    BO,
+                    BR,
+                    CA,
+                    CH,
+                    CL,
+                    CO,
+                    CR,
+                    CY,
+                    CZ,
+                    DE,
+                    DK,
+                    DO,
+                    EC,
+                    EE,
+                    ES,
+                    FI,
+                    FR,
+                    GB,
+                    GR,
+                    GT,
+                    HK,
+                    HN,
+                    HU,
+                    ID,
+                    IE,
+                    IS,
+                    IT,
+                    LI,
+                    LT,
+                    LU,
+                    LV,
+                    MC,
+                    MT,
+                    MX,
+                    MY,
+                    NI,
+                    NL,
+                    NO,
+                    NZ,
+                    PA,
+                    PE,
+                    PH,
+                    PL,
+                    PT,
+                    PY,
+                    SE,
+                    SG,
+                    SK,
+                    SV,
+                    TR,
+                    TW,
+                    US,
+                    UY
+                );
+                "disc_number" = 1;
+                "duration_ms" = 224013;
+                explicit = 1;
+                "external_ids" =                 {
+                    isrc = USAT21502485;
+                };
+                "external_urls" =                 {
+                    spotify = "https://open.spotify.com/track/6phyrxHcUpQ1BRZ8yXCUWB";
+                };
+                href = "https://api.spotify.com/v1/tracks/6phyrxHcUpQ1BRZ8yXCUWB";
+                id = 6phyrxHcUpQ1BRZ8yXCUWB;
+                name = "I Wish (My Taylor Swift)";
+                popularity = 52;
+                "preview_url" = "https://p.scdn.co/mp3-preview/24a28991dc0dc34e1602bf63080b1c12b1d9fa2d?cid=92e3c1c70c9d46db9bacbc117447a0e5";
+                "track_number" = 7;
+                type = track;
+                uri = "spotify:track:6phyrxHcUpQ1BRZ8yXCUWB";
+            },
+                        {
+                album =                 {
+                    "album_type" = album;
+                    artists =                     (
+                                                {
+                            "external_urls" =                             {
+                                spotify = "https://open.spotify.com/artist/69jVjVhjeIhcJNboCmRA7t";
+                            };
+                            href = "https://api.spotify.com/v1/artists/69jVjVhjeIhcJNboCmRA7t";
+                            id = 69jVjVhjeIhcJNboCmRA7t;
+                            name = "Players Since Creation";
+                            type = artist;
+                            uri = "spotify:artist:69jVjVhjeIhcJNboCmRA7t";
+                        }
+                    );
+                    "available_markets" =                     (
+                        AD,
+                        AR,
+                        AT,
+                        AU,
+                        BE,
+                        BG,
+                        BO,
+                        BR,
+                        CA,
+                        CH,
+                        CL,
+                        CO,
+                        CR,
+                        CY,
+                        CZ,
+                        DE,
+                        DK,
+                        DO,
+                        EC,
+                        EE,
+                        ES,
+                        FI,
+                        FR,
+                        GB,
+                        GR,
+                        GT,
+                        HK,
+                        HN,
+                        HU,
+                        ID,
+                        IE,
+                        IS,
+                        IT,
+                        JP,
+                        LI,
+                        LT,
+                        LU,
+                        LV,
+                        MC,
+                        MT,
+                        MX,
+                        MY,
+                        NI,
+                        NL,
+                        NO,
+                        NZ,
+                        PA,
+                        PE,
+                        PH,
+                        PL,
+                        PT,
+                        PY,
+                        SE,
+                        SG,
+                        SK,
+                        SV,
+                        TR,
+                        TW,
+                        US,
+                        UY
+                    );
+                    "external_urls" =                     {
+                        spotify = "https://open.spotify.com/album/6fHBh4CKrV9LmsSeqk9XQC";
+                    };
+                    href = "https://api.spotify.com/v1/albums/6fHBh4CKrV9LmsSeqk9XQC";
+                    id = 6fHBh4CKrV9LmsSeqk9XQC;
+                    images =                     (
+                                                {
+                            height = 640;
+                            url = "https://i.scdn.co/image/f0feb548ebc5d836591bcae28c812c8cfbeaad9c";
+                            width = 640;
+                        },
+                                                {
+                            height = 300;
+                            url = "https://i.scdn.co/image/8dc50c31f10bfe85e9569309467a187b4bb43afd";
+                            width = 300;
+                        },
+                                                {
+                            height = 64;
+                            url = "https://i.scdn.co/image/6a47a1283d14f2d2436c1c86c42525760efb3e2e";
+                            width = 64;
+                        }
+                    );
+                    name = "Difference in the Key";
+                    type = album;
+                    uri = "spotify:album:6fHBh4CKrV9LmsSeqk9XQC";
+                };
+                artists =                 (
+                                        {
+                        "external_urls" =                         {
+                            spotify = "https://open.spotify.com/artist/69jVjVhjeIhcJNboCmRA7t";
+                        };
+                        href = "https://api.spotify.com/v1/artists/69jVjVhjeIhcJNboCmRA7t";
+                        id = 69jVjVhjeIhcJNboCmRA7t;
+                        name = "Players Since Creation";
+                        type = artist;
+                        uri = "spotify:artist:69jVjVhjeIhcJNboCmRA7t";
+                    }
+                );
+                "available_markets" =                 (
+                    AD,
+                    AR,
+                    AT,
+                    AU,
+                    BE,
+                    BG,
+                    BO,
+                    BR,
+                    CA,
+                    CH,
+                    CL,
+                    CO,
+                    CR,
+                    CY,
+                    CZ,
+                    DE,
+                    DK,
+                    DO,
+                    EC,
+                    EE,
+                    ES,
+                    FI,
+                    FR,
+                    GB,
+                    GR,
+                    GT,
+                    HK,
+                    HN,
+                    HU,
+                    ID,
+                    IE,
+                    IS,
+                    IT,
+                    JP,
+                    LI,
+                    LT,
+                    LU,
+                    LV,
+                    MC,
+                    MT,
+                    MX,
+                    MY,
+                    NI,
+                    NL,
+                    NO,
+                    NZ,
+                    PA,
+                    PE,
+                    PH,
+                    PL,
+                    PT,
+                    PY,
+                    SE,
+                    SG,
+                    SK,
+                    SV,
+                    TR,
+                    TW,
+                    US,
+                    UY
+                );
+                "disc_number" = 1;
+                "duration_ms" = 237018;
+                explicit = 0;
+                "external_ids" =                 {
+                    isrc = USQWA1272990;
+                };
+                "external_urls" =                 {
+                    spotify = "https://open.spotify.com/track/2QQNUchMzdxXgfRvgtSDXg";
+                };
+                href = "https://api.spotify.com/v1/tracks/2QQNUchMzdxXgfRvgtSDXg";
+                id = 2QQNUchMzdxXgfRvgtSDXg;
+                name = "Love Story - Taylor Swift";
+                popularity = 28;
+                "preview_url" = "https://p.scdn.co/mp3-preview/ed3b2f6184173741393b32fb4854aeacf0e7c443?cid=92e3c1c70c9d46db9bacbc117447a0e5";
+                "track_number" = 15;
+                type = track;
+                uri = "spotify:track:2QQNUchMzdxXgfRvgtSDXg";
+            },
+                        {
+                album =                 {
+                    "album_type" = album;
+                    artists =                     (
+                                                {
+                            "external_urls" =                             {
+                                spotify = "https://open.spotify.com/artist/6CcUcpjf1L8JEXQ2MByOo7";
+                            };
+                            href = "https://api.spotify.com/v1/artists/6CcUcpjf1L8JEXQ2MByOo7";
+                            id = 6CcUcpjf1L8JEXQ2MByOo7;
+                            name = "Rustic Rousers";
+                            type = artist;
+                            uri = "spotify:artist:6CcUcpjf1L8JEXQ2MByOo7";
+                        }
+                    );
+                    "available_markets" =                     (
+                        AD,
+                        AR,
+                        AT,
+                        AU,
+                        BE,
+                        BG,
+                        BO,
+                        BR,
+                        CA,
+                        CH,
+                        CL,
+                        CO,
+                        CR,
+                        CY,
+                        CZ,
+                        DE,
+                        DK,
+                        DO,
+                        EC,
+                        EE,
+                        ES,
+                        FI,
+                        FR,
+                        GB,
+                        GR,
+                        GT,
+                        HK,
+                        HN,
+                        HU,
+                        ID,
+                        IE,
+                        IS,
+                        IT,
+                        JP,
+                        LI,
+                        LT,
+                        LU,
+                        LV,
+                        MC,
+                        MT,
+                        MX,
+                        MY,
+                        NI,
+                        NL,
+                        NO,
+                        NZ,
+                        PA,
+                        PE,
+                        PH,
+                        PL,
+                        PT,
+                        PY,
+                        SE,
+                        SG,
+                        SK,
+                        SV,
+                        TR,
+                        TW,
+                        US,
+                        UY
+                    );
+                    "external_urls" =                     {
+                        spotify = "https://open.spotify.com/album/0vXYD01eO9UhhDjba2oCkx";
+                    };
+                    href = "https://api.spotify.com/v1/albums/0vXYD01eO9UhhDjba2oCkx";
+                    id = 0vXYD01eO9UhhDjba2oCkx;
+                    images =                     (
+                                                {
+                            height = 640;
+                            url = "https://i.scdn.co/image/eb83c2b8128492c341ff03de4291de67ca83a921";
+                            width = 640;
+                        },
+                                                {
+                            height = 300;
+                            url = "https://i.scdn.co/image/cccd2320cb0eb9b1e17dc724af129fe190daa37d";
+                            width = 300;
+                        },
+                                                {
+                            height = 64;
+                            url = "https://i.scdn.co/image/1e8ce605522fd5f079e9125a02a31a88da74594c";
+                            width = 64;
+                        }
+                    );
+                    name = "Country Queens and Princesses";
+                    type = album;
+                    uri = "spotify:album:0vXYD01eO9UhhDjba2oCkx";
+                };
+                artists =                 (
+                                        {
+                        "external_urls" =                         {
+                            spotify = "https://open.spotify.com/artist/6CcUcpjf1L8JEXQ2MByOo7";
+                        };
+                        href = "https://api.spotify.com/v1/artists/6CcUcpjf1L8JEXQ2MByOo7";
+                        id = 6CcUcpjf1L8JEXQ2MByOo7;
+                        name = "Rustic Rousers";
+                        type = artist;
+                        uri = "spotify:artist:6CcUcpjf1L8JEXQ2MByOo7";
+                    }
+                );
+                "available_markets" =                 (
+                    AD,
+                    AR,
+                    AT,
+                    AU,
+                    BE,
+                    BG,
+                    BO,
+                    BR,
+                    CA,
+                    CH,
+                    CL,
+                    CO,
+                    CR,
+                    CY,
+                    CZ,
+                    DE,
+                    DK,
+                    DO,
+                    EC,
+                    EE,
+                    ES,
+                    FI,
+                    FR,
+                    GB,
+                    GR,
+                    GT,
+                    HK,
+                    HN,
+                    HU,
+                    ID,
+                    IE,
+                    IS,
+                    IT,
+                    JP,
+                    LI,
+                    LT,
+                    LU,
+                    LV,
+                    MC,
+                    MT,
+                    MX,
+                    MY,
+                    NI,
+                    NL,
+                    NO,
+                    NZ,
+                    PA,
+                    PE,
+                    PH,
+                    PL,
+                    PT,
+                    PY,
+                    SE,
+                    SG,
+                    SK,
+                    SV,
+                    TR,
+                    TW,
+                    US,
+                    UY
+                );
+                "disc_number" = 1;
+                "duration_ms" = 227707;
+                explicit = 0;
+                "external_ids" =                 {
+                    isrc = USQWA1291484;
+                };
+                "external_urls" =                 {
+                    spotify = "https://open.spotify.com/track/05BtbyfxVpJgVG4f4AM7cs";
+                };
+                href = "https://api.spotify.com/v1/tracks/05BtbyfxVpJgVG4f4AM7cs";
+                id = 05BtbyfxVpJgVG4f4AM7cs;
+                name = "You Belong with Me - Taylor Swift";
+                popularity = 35;
+                "preview_url" = "https://p.scdn.co/mp3-preview/f2e4a3796d7cdfe8a4e415577417710f3f6d2e29?cid=92e3c1c70c9d46db9bacbc117447a0e5";
+                "track_number" = 12;
+                type = track;
+                uri = "spotify:track:05BtbyfxVpJgVG4f4AM7cs";
+            },
+                        {
+                album =                 {
+                    "album_type" = album;
+                    artists =                     (
+                                                {
+                            "external_urls" =                             {
+                                spotify = "https://open.spotify.com/artist/5bHjVR4F2Tfq4Ha6x7K6wU";
+                            };
+                            href = "https://api.spotify.com/v1/artists/5bHjVR4F2Tfq4Ha6x7K6wU";
+                            id = 5bHjVR4F2Tfq4Ha6x7K6wU;
+                            name = "Rockabye Baby!";
+                            type = artist;
+                            uri = "spotify:artist:5bHjVR4F2Tfq4Ha6x7K6wU";
+                        }
+                    );
+                    "available_markets" =                     (
+                        AD,
+                        AR,
+                        AT,
+                        AU,
+                        BE,
+                        BG,
+                        BO,
+                        BR,
+                        CA,
+                        CH,
+                        CL,
+                        CO,
+                        CR,
+                        CY,
+                        CZ,
+                        DE,
+                        DK,
+                        DO,
+                        EC,
+                        EE,
+                        ES,
+                        FI,
+                        FR,
+                        GB,
+                        GR,
+                        GT,
+                        HK,
+                        HN,
+                        HU,
+                        ID,
+                        IE,
+                        IS,
+                        IT,
+                        JP,
+                        LI,
+                        LT,
+                        LU,
+                        LV,
+                        MC,
+                        MT,
+                        MX,
+                        MY,
+                        NI,
+                        NL,
+                        NO,
+                        NZ,
+                        PA,
+                        PE,
+                        PH,
+                        PL,
+                        PT,
+                        PY,
+                        SE,
+                        SG,
+                        SK,
+                        SV,
+                        TR,
+                        TW,
+                        US,
+                        UY
+                    );
+                    "external_urls" =                     {
+                        spotify = "https://open.spotify.com/album/37XMW4Lys4jv5DwngkmKEm";
+                    };
+                    href = "https://api.spotify.com/v1/albums/37XMW4Lys4jv5DwngkmKEm";
+                    id = 37XMW4Lys4jv5DwngkmKEm;
+                    images =                     (
+                                                {
+                            height = 640;
+                            url = "https://i.scdn.co/image/ada244bcc31e4ef74bb82d802a33578668c362e9";
+                            width = 640;
+                        },
+                                                {
+                            height = 300;
+                            url = "https://i.scdn.co/image/9d997c72fb12d2fcc3b23118ca2007e06d80d2dd";
+                            width = 300;
+                        },
+                                                {
+                            height = 64;
+                            url = "https://i.scdn.co/image/4a14e6203f87e94831979801ec9d66cf7bb38b42";
+                            width = 64;
+                        }
+                    );
+                    name = "Lullaby Renditions of Taylor Swift";
+                    type = album;
+                    uri = "spotify:album:37XMW4Lys4jv5DwngkmKEm";
+                };
+                artists =                 (
+                                        {
+                        "external_urls" =                         {
+                            spotify = "https://open.spotify.com/artist/5bHjVR4F2Tfq4Ha6x7K6wU";
+                        };
+                        href = "https://api.spotify.com/v1/artists/5bHjVR4F2Tfq4Ha6x7K6wU";
+                        id = 5bHjVR4F2Tfq4Ha6x7K6wU;
+                        name = "Rockabye Baby!";
+                        type = artist;
+                        uri = "spotify:artist:5bHjVR4F2Tfq4Ha6x7K6wU";
+                    }
+                );
+                "available_markets" =                 (
+                    AD,
+                    AR,
+                    AT,
+                    AU,
+                    BE,
+                    BG,
+                    BO,
+                    BR,
+                    CA,
+                    CH,
+                    CL,
+                    CO,
+                    CR,
+                    CY,
+                    CZ,
+                    DE,
+                    DK,
+                    DO,
+                    EC,
+                    EE,
+                    ES,
+                    FI,
+                    FR,
+                    GB,
+                    GR,
+                    GT,
+                    HK,
+                    HN,
+                    HU,
+                    ID,
+                    IE,
+                    IS,
+                    IT,
+                    JP,
+                    LI,
+                    LT,
+                    LU,
+                    LV,
+                    MC,
+                    MT,
+                    MX,
+                    MY,
+                    NI,
+                    NL,
+                    NO,
+                    NZ,
+                    PA,
+                    PE,
+                    PH,
+                    PL,
+                    PT,
+                    PY,
+                    SE,
+                    SG,
+                    SK,
+                    SV,
+                    TR,
+                    TW,
+                    US,
+                    UY
+                );
+                "disc_number" = 1;
+                "duration_ms" = 235052;
+                explicit = 0;
+                "external_ids" =                 {
+                    isrc = USEWC1589758;
+                };
+                "external_urls" =                 {
+                    spotify = "https://open.spotify.com/track/2muXrVYHVCUOuth8MePP3K";
+                };
+                href = "https://api.spotify.com/v1/tracks/2muXrVYHVCUOuth8MePP3K";
+                id = 2muXrVYHVCUOuth8MePP3K;
+                name = "Blank Space";
+                popularity = 40;
+                "preview_url" = "https://p.scdn.co/mp3-preview/918fa2958d8b82bfb895f451ff523980a146b147?cid=92e3c1c70c9d46db9bacbc117447a0e5";
+                "track_number" = 1;
+                type = track;
+                uri = "spotify:track:2muXrVYHVCUOuth8MePP3K";
+            },
+                        {
+                album =                 {
+                    "album_type" = album;
+                    artists =                     (
+                                                {
+                            "external_urls" =                             {
+                                spotify = "https://open.spotify.com/artist/2YQ4MY2VwOMv43C0GemUY5";
+                            };
+                            href = "https://api.spotify.com/v1/artists/2YQ4MY2VwOMv43C0GemUY5";
+                            id = 2YQ4MY2VwOMv43C0GemUY5;
+                            name = "Jon Schmidt";
+                            type = artist;
+                            uri = "spotify:artist:2YQ4MY2VwOMv43C0GemUY5";
+                        }
+                    );
+                    "available_markets" =                     (
+                        AD,
+                        AR,
+                        AT,
+                        AU,
+                        BE,
+                        BG,
+                        BO,
+                        BR,
+                        CA,
+                        CH,
+                        CL,
+                        CO,
+                        CR,
+                        CY,
+                        CZ,
+                        DE,
+                        DK,
+                        DO,
+                        EC,
+                        EE,
+                        ES,
+                        FI,
+                        FR,
+                        GB,
+                        GR,
+                        GT,
+                        HK,
+                        HN,
+                        HU,
+                        ID,
+                        IE,
+                        IS,
+                        IT,
+                        JP,
+                        LI,
+                        LT,
+                        LU,
+                        LV,
+                        MC,
+                        MT,
+                        MX,
+                        MY,
+                        NI,
+                        NL,
+                        NO,
+                        NZ,
+                        PA,
+                        PE,
+                        PH,
+                        PL,
+                        PT,
+                        PY,
+                        SE,
+                        SG,
+                        SK,
+                        SV,
+                        TR,
+                        TW,
+                        US,
+                        UY
+                    );
+                    "external_urls" =                     {
+                        spotify = "https://open.spotify.com/album/6YjRNbNssQ2JKCIJ9DoTpy";
+                    };
+                    href = "https://api.spotify.com/v1/albums/6YjRNbNssQ2JKCIJ9DoTpy";
+                    id = 6YjRNbNssQ2JKCIJ9DoTpy;
+                    images =                     (
+                                                {
+                            height = 640;
+                            url = "https://i.scdn.co/image/5a376fea4522014cf2bb03e63535ddf020965f60";
+                            width = 640;
+                        },
+                                                {
+                            height = 300;
+                            url = "https://i.scdn.co/image/c9f15c3487bd02fa03bcd54dfcd1697b70132db9";
+                            width = 300;
+                        },
+                                                {
+                            height = 64;
+                            url = "https://i.scdn.co/image/9460cdc04eecac4de8568ca99a9051ce1af452f1";
+                            width = 64;
+                        }
+                    );
+                    name = "Bonus Tracks";
+                    type = album;
+                    uri = "spotify:album:6YjRNbNssQ2JKCIJ9DoTpy";
+                };
+                artists =                 (
+                                        {
+                        "external_urls" =                         {
+                            spotify = "https://open.spotify.com/artist/2YQ4MY2VwOMv43C0GemUY5";
+                        };
+                        href = "https://api.spotify.com/v1/artists/2YQ4MY2VwOMv43C0GemUY5";
+                        id = 2YQ4MY2VwOMv43C0GemUY5;
+                        name = "Jon Schmidt";
+                        type = artist;
+                        uri = "spotify:artist:2YQ4MY2VwOMv43C0GemUY5";
+                    }
+                );
+                "available_markets" =                 (
+                    AD,
+                    AR,
+                    AT,
+                    AU,
+                    BE,
+                    BG,
+                    BO,
+                    BR,
+                    CA,
+                    CH,
+                    CL,
+                    CO,
+                    CR,
+                    CY,
+                    CZ,
+                    DE,
+                    DK,
+                    DO,
+                    EC,
+                    EE,
+                    ES,
+                    FI,
+                    FR,
+                    GB,
+                    GR,
+                    GT,
+                    HK,
+                    HN,
+                    HU,
+                    ID,
+                    IE,
+                    IS,
+                    IT,
+                    JP,
+                    LI,
+                    LT,
+                    LU,
+                    LV,
+                    MC,
+                    MT,
+                    MX,
+                    MY,
+                    NI,
+                    NL,
+                    NO,
+                    NZ,
+                    PA,
+                    PE,
+                    PH,
+                    PL,
+                    PT,
+                    PY,
+                    SE,
+                    SG,
+                    SK,
+                    SV,
+                    TR,
+                    TW,
+                    US,
+                    UY
+                );
+                "disc_number" = 1;
+                "duration_ms" = 384880;
+                explicit = 0;
+                "external_ids" =                 {
+                    isrc = ushm80974606;
+                };
+                "external_urls" =                 {
+                    spotify = "https://open.spotify.com/track/3pRrL0BfKWY1QdQNzL6v92";
+                };
+                href = "https://api.spotify.com/v1/tracks/3pRrL0BfKWY1QdQNzL6v92";
+                id = 3pRrL0BfKWY1QdQNzL6v92;
+                name = "Love Story meets Love Story (Taylor Swift Remix)";
+                popularity = 36;
+                "preview_url" = "https://p.scdn.co/mp3-preview/940af84d7ed8e3db62c83e72b77ec378a9c7a70e?cid=92e3c1c70c9d46db9bacbc117447a0e5";
+                "track_number" = 1;
+                type = track;
+                uri = "spotify:track:3pRrL0BfKWY1QdQNzL6v92";
+            },
+                        {
+                album =                 {
+                    "album_type" = album;
+                    artists =                     (
+                                                {
+                            "external_urls" =                             {
+                                spotify = "https://open.spotify.com/artist/0oHI0NJvrmp20wMLYxquLO";
+                            };
+                            href = "https://api.spotify.com/v1/artists/0oHI0NJvrmp20wMLYxquLO";
+                            id = 0oHI0NJvrmp20wMLYxquLO;
+                            name = "Dance Guru vol 6";
+                            type = artist;
+                            uri = "spotify:artist:0oHI0NJvrmp20wMLYxquLO";
+                        }
+                    );
+                    "available_markets" =                     (
+                        AD,
+                        AR,
+                        AT,
+                        AU,
+                        BE,
+                        BG,
+                        BO,
+                        BR,
+                        CA,
+                        CH,
+                        CL,
+                        CO,
+                        CR,
+                        CY,
+                        CZ,
+                        DE,
+                        DK,
+                        DO,
+                        EC,
+                        EE,
+                        ES,
+                        FI,
+                        FR,
+                        GB,
+                        GR,
+                        GT,
+                        HK,
+                        HN,
+                        HU,
+                        ID,
+                        IE,
+                        IS,
+                        IT,
+                        JP,
+                        LI,
+                        LT,
+                        LU,
+                        LV,
+                        MC,
+                        MT,
+                        MX,
+                        MY,
+                        NI,
+                        NL,
+                        NO,
+                        NZ,
+                        PA,
+                        PE,
+                        PH,
+                        PL,
+                        PT,
+                        PY,
+                        SE,
+                        SG,
+                        SK,
+                        SV,
+                        TR,
+                        TW,
+                        US,
+                        UY
+                    );
+                    "external_urls" =                     {
+                        spotify = "https://open.spotify.com/album/1ZEjrliBXtjsbanb1jbU5B";
+                    };
+                    href = "https://api.spotify.com/v1/albums/1ZEjrliBXtjsbanb1jbU5B";
+                    id = 1ZEjrliBXtjsbanb1jbU5B;
+                    images =                     (
+                                                {
+                            height = 600;
+                            url = "https://i.scdn.co/image/4677d40a82480c90d081471b00727d79ae27f567";
+                            width = 600;
+                        },
+                                                {
+                            height = 300;
+                            url = "https://i.scdn.co/image/60cc6d36f5632e8adf13cf1455b6d7256a21d8f6";
+                            width = 300;
+                        },
+                                                {
+                            height = 64;
+                            url = "https://i.scdn.co/image/34b2966c81baaf0456bf1a7b96c7742fe3eb4809";
+                            width = 64;
+                        }
+                    );
+                    name = "Best Of The Best Remixes";
+                    type = album;
+                    uri = "spotify:album:1ZEjrliBXtjsbanb1jbU5B";
+                };
+                artists =                 (
+                                        {
+                        "external_urls" =                         {
+                            spotify = "https://open.spotify.com/artist/0oHI0NJvrmp20wMLYxquLO";
+                        };
+                        href = "https://api.spotify.com/v1/artists/0oHI0NJvrmp20wMLYxquLO";
+                        id = 0oHI0NJvrmp20wMLYxquLO;
+                        name = "Dance Guru vol 6";
+                        type = artist;
+                        uri = "spotify:artist:0oHI0NJvrmp20wMLYxquLO";
+                    }
+                );
+                "available_markets" =                 (
+                    AD,
+                    AR,
+                    AT,
+                    AU,
+                    BE,
+                    BG,
+                    BO,
+                    BR,
+                    CA,
+                    CH,
+                    CL,
+                    CO,
+                    CR,
+                    CY,
+                    CZ,
+                    DE,
+                    DK,
+                    DO,
+                    EC,
+                    EE,
+                    ES,
+                    FI,
+                    FR,
+                    GB,
+                    GR,
+                    GT,
+                    HK,
+                    HN,
+                    HU,
+                    ID,
+                    IE,
+                    IS,
+                    IT,
+                    JP,
+                    LI,
+                    LT,
+                    LU,
+                    LV,
+                    MC,
+                    MT,
+                    MX,
+                    MY,
+                    NI,
+                    NL,
+                    NO,
+                    NZ,
+                    PA,
+                    PE,
+                    PH,
+                    PL,
+                    PT,
+                    PY,
+                    SE,
+                    SG,
+                    SK,
+                    SV,
+                    TR,
+                    TW,
+                    US,
+                    UY
+                );
+                "disc_number" = 1;
+                "duration_ms" = 134608;
+                explicit = 0;
+                "external_ids" =                 {
+                    isrc = GBHAF1649409;
+                };
+                "external_urls" =                 {
+                    spotify = "https://open.spotify.com/track/5e5To3ycXfdXc2eiFbGhBZ";
+                };
+                href = "https://api.spotify.com/v1/tracks/5e5To3ycXfdXc2eiFbGhBZ";
+                id = 5e5To3ycXfdXc2eiFbGhBZ;
+                name = "Bad Blood (Taylor Swift Fitness Version Dance remix)";
+                popularity = 33;
+                "preview_url" = "https://p.scdn.co/mp3-preview/aef9fec2892da125fbbc6b60645489689532cd08?cid=92e3c1c70c9d46db9bacbc117447a0e5";
+                "track_number" = 9;
+                type = track;
+                uri = "spotify:track:5e5To3ycXfdXc2eiFbGhBZ";
+            }
+        );
+        limit = 20;
+        next = "https://api.spotify.com/v1/search?query=Taylor+Swift&type=track&market=GB&offset=20&limit=20";
+        offset = 0;
+        previous = "<null>";
+        total = 7266;
+    };
+}
